@@ -1,0 +1,140 @@
+/* ===== Stats page (sx- prefix) ===== */
+
+/* summary cards */
+.sx-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.sx-stat {
+  text-align: center;
+  padding: 18px 10px 14px;
+}
+.sx-num {
+  font-size: 2.1rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.sx-lbl {
+  margin-top: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-2);
+}
+.sx-live .sx-num {
+  color: var(--live);
+}
+.sx-live-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--live);
+  margin-inline-end: 6px;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+/* two content cards: stacked on mobile, side by side on desktop */
+.sx-cols {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+}
+@media (min-width: 980px) {
+  .sx-cols {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  }
+}
+
+.sx-card h2 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+/* top scorers table */
+.sx-table {
+  width: 100%;
+}
+.sx-table th {
+  padding: 0 4px 6px;
+  font-size: 0.72rem;
+  font-weight: 650;
+  color: var(--text-3);
+  text-align: start;
+}
+.sx-table th.sx-goals-h {
+  text-align: end;
+}
+.sx-table td {
+  padding: 8px 4px;
+  border-top: 1px solid var(--border);
+  vertical-align: middle;
+}
+.sx-pos {
+  width: 28px;
+  text-align: end;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--text-3);
+}
+.sx-player {
+  font-weight: 650;
+}
+.sx-team-cell {
+  width: 76px;
+  white-space: nowrap;
+}
+.sx-team .nm {
+  font-size: 0.8rem;
+  font-weight: 650;
+  color: var(--text-2);
+}
+.sx-goals {
+  width: 44px;
+  text-align: end;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+/* FIFA ranking list — flows into 2 columns on wider screens */
+.sx-rank-list {
+  column-count: 1;
+  column-gap: 28px;
+}
+@media (min-width: 620px) {
+  .sx-rank-list {
+    column-count: 2;
+  }
+}
+.sx-rank-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 2px;
+  border-bottom: 1px solid var(--border);
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+}
+.sx-rank-row:last-child {
+  border-bottom: 0;
+}
+.sx-rank-no {
+  flex: none;
+  width: 30px;
+  text-align: end;
+  font-weight: 750;
+  font-size: 0.86rem;
+  color: var(--text-2);
+}
+.sx-rank-team {
+  flex: 1;
+  min-width: 0;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+.sx-rank-row .chip {
+  flex: none;
+}

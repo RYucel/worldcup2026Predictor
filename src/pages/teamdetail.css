@@ -1,0 +1,385 @@
+/* ===== TeamDetail page (prefix: td-) ===== */
+
+.td-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 650;
+  font-size: 0.85rem;
+  color: var(--text-2);
+  margin-bottom: 12px;
+}
+.td-back:hover {
+  color: var(--text);
+}
+[dir="rtl"] .td-back svg {
+  transform: scaleX(-1);
+} /* back chevron points the other way in RTL */
+
+/* ---- hero ---- */
+.td-hero {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.td-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 5px;
+  background: linear-gradient(90deg, var(--td-c1, var(--accent)), var(--td-c2, var(--accent-2)));
+}
+.td-hero h1 {
+  margin: 0;
+}
+.td-hero-main {
+  flex: 1;
+  min-width: 200px;
+}
+.td-nick {
+  font-size: 0.9rem;
+  margin-top: 1px;
+  font-style: italic;
+}
+.td-chips {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 9px;
+}
+.td-chips .chip b {
+  font-weight: 750;
+}
+.td-fav {
+  flex: none;
+}
+.td-fav.on svg {
+  color: var(--gold);
+}
+
+/* ---- two-column zone (info + group table) ---- */
+.td-cols {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 12px;
+  align-items: start;
+}
+@media (min-width: 920px) {
+  .td-cols {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 14px;
+  }
+}
+
+/* info rows */
+.td-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--border);
+}
+.td-row:first-child {
+  padding-top: 0;
+}
+.td-row-l {
+  flex: none;
+  min-width: 104px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+.td-row-v {
+  min-width: 0;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.td-web {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--accent-2);
+  font-weight: 650;
+}
+.td-web svg {
+  flex: none;
+}
+.td-web:hover {
+  text-decoration: underline;
+}
+
+.td-skel {
+  color: var(--text-3);
+  font-weight: 500;
+  animation: td-shimmer 1.2s ease-in-out infinite;
+}
+@keyframes td-shimmer {
+  50% {
+    opacity: 0.35;
+  }
+}
+
+/* description with clamp */
+
+/* ---- mini group standings ---- */
+.td-group h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.td-group h3 a:hover {
+  color: var(--accent-2);
+}
+.td-table {
+  width: 100%;
+  font-size: 0.85rem;
+}
+.td-table th {
+  padding: 2px 4px 6px;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  text-align: center;
+  white-space: nowrap;
+}
+.td-table td {
+  padding: 7px 4px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+.td-table .l {
+  text-align: start;
+}
+.td-table td.team {
+  width: 99%;
+  max-width: 0;
+}
+.td-table td.team .team-inline {
+  max-width: 100%;
+}
+.td-table td.pts {
+  font-weight: 800;
+}
+.td-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  background: var(--chip-bg);
+  font-size: 0.72rem;
+  font-weight: 750;
+  color: var(--text-2);
+}
+.td-q-through .td-rank {
+  background: var(--win);
+  color: #fff;
+}
+.td-q-third .td-rank {
+  background: var(--draw);
+  color: #fff;
+}
+.td-q-out .td-rank {
+  background: var(--loss);
+  color: #fff;
+}
+.td-row-me td {
+  background: color-mix(in srgb, var(--accent) 7%, transparent);
+}
+.td-row-me td:first-child {
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+[dir="rtl"] .td-row-me td:first-child {
+  box-shadow: inset -3px 0 0 var(--accent);
+} /* accent bar hugs the inline-start edge */
+.td-row-me td.team .nm {
+  font-weight: 750;
+}
+@media (max-width: 479.5px) {
+  .td-table .xw {
+    display: none;
+  }
+}
+
+.td-opps {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 13px;
+}
+.td-opps-flags {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+.td-opps-flags a {
+  display: inline-flex;
+  border-radius: 4px;
+  transition: transform 0.12s;
+}
+.td-opps-flags a:hover {
+  transform: scale(1.12);
+}
+
+/* ---- squad ---- */
+.td-squad-note {
+  margin: -6px 0 14px;
+}
+.td-pos-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0 10px;
+  font-size: 0.97rem;
+  font-weight: 750;
+}
+.td-pos-head:first-of-type {
+  margin-top: 4px;
+}
+.td-pos-head .chip {
+  font-size: 0.68rem;
+}
+
+.td-players {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+@media (min-width: 700px) {
+  .td-players {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1020px) {
+  .td-players {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.td-player {
+  position: relative;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow);
+  padding: 10px 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  min-width: 0;
+}
+.td-no {
+  position: absolute;
+  top: 10px;
+  inset-inline-end: 12px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--text-3);
+  line-height: 1;
+}
+.td-no::before {
+  content: "#";
+  font-size: 0.72em;
+  opacity: 0.65;
+}
+
+.td-p-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-weight: 700;
+  font-size: 0.92rem;
+  line-height: 1.25;
+}
+.td-cap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 5px;
+  background: var(--gold);
+  color: #fff;
+  font-size: 0.64rem;
+  font-weight: 800;
+  flex: none;
+}
+.td-p-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 0.78rem;
+  color: var(--text-2);
+}
+.td-p-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+.td-p-row .clip {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+.td-p-row .sep {
+  color: var(--text-3);
+}
+
+/* squad loading skeleton */
+.td-skel-grid {
+  margin-top: 4px;
+}
+.td-skel-card {
+  height: 118px;
+  border-radius: var(--r-md);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  animation: td-shimmer 1.2s ease-in-out infinite;
+}
+
+/* player name links to the English Wikipedia article */
+.td-wiki {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+.td-wiki:hover {
+  color: var(--accent-2);
+  text-decoration: underline;
+}
+.td-wiki svg {
+  flex: none;
+  color: var(--text-3);
+}
+
+/* base-camp row: internal map link + Google Maps side by side */
+.td-camp-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 14px;
+}
+.td-gmaps {
+  color: var(--accent-2);
+}

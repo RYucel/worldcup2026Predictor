@@ -1,0 +1,246 @@
+/* ============ Groups page ============ */
+
+.gp-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+@media (min-width: 680px) {
+  .gp-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1060px) {
+  .gp-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.gp-card {
+  padding: 14px 14px 12px;
+  /* deep-link anchors (#group-A..L) land below the sticky header */
+  scroll-margin-top: calc(var(--hdr-h, 58px) + 12px);
+}
+
+.gp-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.gp-head h2 {
+  margin: 0;
+  font-size: 1.02rem;
+}
+.gp-letter {
+  width: 28px;
+  height: 28px;
+  border-radius: 9px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--text);
+  color: var(--bg);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.92rem;
+  flex: none;
+}
+
+/* ---- standings table ---- */
+.gp-table {
+  width: 100%;
+  font-size: 0.86rem;
+}
+.gp-table th {
+  font-weight: 650;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-3);
+  padding: 2px 4px 6px;
+  text-align: center;
+  white-space: nowrap;
+}
+.gp-table td {
+  padding: 6px 4px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  white-space: nowrap;
+}
+.gp-table th.gp-team,
+.gp-table td.gp-team {
+  text-align: start;
+}
+
+/* team column flexes and truncates */
+.gp-table td.gp-team {
+  width: 100%;
+  max-width: 0;
+}
+.gp-table td.gp-team .team-inline {
+  max-width: 100%;
+}
+
+.gp-table .gp-rank {
+  width: 20px;
+  color: var(--text-3);
+  font-size: 0.74rem;
+  text-align: center;
+}
+.gp-table .gp-pts {
+  font-weight: 800;
+}
+
+/* hide GF/GA, then W/D/L, on narrow phones so the table always fits */
+@media (max-width: 480px) {
+  .gp-table .gp-hxs {
+    display: none;
+  }
+}
+@media (max-width: 389.5px) {
+  .gp-table .gp-hxxs {
+    display: none;
+  }
+}
+
+/* ---- qualification row states (only set once a group is complete) ---- */
+.gp-tr-through td {
+  background: color-mix(in srgb, var(--win) 9%, transparent);
+}
+.gp-tr-through td:first-child {
+  box-shadow: inset 3px 0 0 var(--win);
+}
+.gp-tr-third td {
+  background: color-mix(in srgb, var(--draw) 10%, transparent);
+}
+.gp-tr-third td:first-child {
+  box-shadow: inset 3px 0 0 var(--draw);
+}
+.gp-tr-out td {
+  background: color-mix(in srgb, var(--loss) 5%, transparent);
+  color: var(--text-3);
+}
+.gp-tr-out td:first-child {
+  box-shadow: inset 3px 0 0 color-mix(in srgb, var(--loss) 45%, transparent);
+}
+/* the qualification accent bar hugs the inline-start edge; box-shadow has no
+   logical form, so mirror the inset offset in RTL */
+[dir="rtl"] .gp-tr-through td:first-child {
+  box-shadow: inset -3px 0 0 var(--win);
+}
+[dir="rtl"] .gp-tr-third td:first-child {
+  box-shadow: inset -3px 0 0 var(--draw);
+}
+[dir="rtl"] .gp-tr-out td:first-child {
+  box-shadow: inset -3px 0 0 color-mix(in srgb, var(--loss) 45%, transparent);
+}
+
+/* ---- expandable fixtures ---- */
+.gp-fixbtn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 7px 8px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--r-md);
+  background: transparent;
+  font-weight: 650;
+  font-size: 0.8rem;
+  color: var(--text-2);
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+.gp-fixbtn:hover {
+  background: var(--chip-bg);
+  color: var(--text);
+}
+.gp-fixbtn .chip {
+  font-size: 0.66rem;
+  padding: 1px 7px;
+}
+.gp-chev {
+  margin-inline-start: auto;
+  transform: rotate(-90deg);
+  transition: transform 0.2s;
+  flex: none;
+}
+.gp-chev.open {
+  transform: rotate(90deg);
+}
+
+/* fixtures stay single-column inside a group card at every viewport */
+.cards-grid.gp-fix {
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+/* ---- third-placed teams ---- */
+.gp-thirds {
+  margin-top: 0;
+}
+.gp-table .gp-gcol {
+  width: 30px;
+  text-align: center;
+}
+.gp-gbtn {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  border-radius: 7px;
+  background: var(--chip-bg);
+  color: var(--text-2);
+  font-weight: 750;
+  font-size: 0.74rem;
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+.gp-gbtn:hover {
+  background: var(--text);
+  color: var(--bg);
+}
+
+/* cut-off line under the 8th third-placed team */
+.gp-cutline td {
+  border-bottom: 2px dashed var(--border-strong);
+}
+
+.gp-info {
+  margin: 10px 2px 2px;
+}
+
+/* ---- legend ---- */
+.gp-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 16px 2px 8px;
+}
+.gp-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.gp-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex: none;
+}
+.gp-dot-q {
+  background: var(--win);
+}
+.gp-dot-t {
+  background: var(--draw);
+}
+.gp-dot-o {
+  background: var(--loss);
+  opacity: 0.65;
+}

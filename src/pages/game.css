@@ -1,0 +1,237 @@
+/* ============ Penalty shootout minigame ============ */
+.game-page {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.game-page .page-head {
+  text-align: center;
+}
+
+/* ---- setup ---- */
+.game-setup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 460px;
+  margin: 0 auto;
+}
+.game-pick {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.game-pick-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-2);
+}
+.game-pick-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.game-pick-row select {
+  flex: 1;
+  min-width: 0;
+}
+.game-pick-ball {
+  font-size: 1.2rem;
+  width: 26px;
+  text-align: center;
+}
+.game-start {
+  align-self: center;
+}
+
+/* ---- board ---- */
+.game-board {
+  padding: 16px 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.game-score-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 6px 10px;
+  border-radius: var(--r-md);
+  border: 1px solid transparent;
+}
+.game-score-row.on {
+  border-color: var(--border);
+  background: var(--chip-bg);
+}
+.game-score-name {
+  font-weight: 700;
+  font-size: 0.92rem;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.game-dots {
+  display: flex;
+  gap: 5px;
+  margin-inline-start: auto;
+}
+.game-dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 999px;
+  border: 1.5px solid var(--border-strong);
+  background: transparent;
+}
+.game-dot.ok {
+  background: var(--ok, #16a34a);
+  border-color: var(--ok, #16a34a);
+}
+.game-dot.ko {
+  background: var(--live);
+  border-color: var(--live);
+}
+.game-score-n {
+  font-weight: 800;
+  width: 18px;
+  text-align: end;
+}
+
+.game-status {
+  text-align: center;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--text-2);
+  margin-top: 2px;
+}
+
+/* ---- the goal ---- */
+.game-goal-wrap {
+  background:
+    linear-gradient(180deg, rgb(2 44 18 / 0.18), transparent 30%),
+    linear-gradient(180deg, var(--stadium-mid), var(--stadium) 86%);
+  border-radius: var(--r-lg);
+  padding: 10px 6px 0;
+}
+.game-goal {
+  display: block;
+  width: 100%;
+  height: auto;
+  direction: ltr;
+}
+.gg-net line {
+  stroke: rgb(255 255 255 / 0.22);
+  stroke-width: 1;
+}
+.gg-frame {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.gg-ground {
+  stroke: rgb(255 255 255 / 0.5);
+  stroke-width: 2.5;
+}
+.gg-keeper {
+  fill: #facc15;
+  stroke: #facc15;
+  stroke-width: 4;
+  stroke-linecap: round;
+  transition: transform 0.5s cubic-bezier(0.3, 1.2, 0.5, 1);
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.gg-keeper line {
+  fill: none;
+}
+.gg-ball {
+  fill: #fff;
+  stroke: #111418;
+  stroke-width: 1.6;
+  transition: transform 0.45s cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+.gg-zone {
+  fill: transparent;
+  stroke: rgb(255 255 255 / 0);
+  cursor: crosshair;
+  transition:
+    fill 0.12s,
+    stroke 0.12s;
+}
+.gg-zone:hover,
+.gg-zone:focus-visible {
+  fill: rgb(190 242 100 / 0.18);
+  stroke: rgb(190 242 100 / 0.65);
+  stroke-width: 2;
+  outline: none;
+}
+.gg-verdict {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  paint-order: stroke;
+  stroke: rgb(0 0 0 / 0.45);
+  stroke-width: 6;
+  animation: gg-pop 0.35s cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+.gg-verdict.good {
+  fill: #bef264;
+}
+.gg-verdict.bad {
+  fill: #fda4af;
+}
+@keyframes gg-pop {
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gg-keeper,
+  .gg-ball {
+    transition: none;
+  }
+  .gg-verdict {
+    animation: none;
+  }
+}
+
+.game-hint {
+  text-align: center;
+}
+.game-players {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  color: var(--text-2);
+}
+
+/* ---- full-time ---- */
+.game-over {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 26px 0 10px;
+}
+.game-over-msg {
+  font-size: 1.3rem;
+  font-weight: 850;
+}
+.game-over-msg.good {
+  color: var(--ok, #16a34a);
+}
+.game-over-msg.bad {
+  color: var(--live);
+}
+.game-over-score {
+  font-size: 2.1rem;
+  font-weight: 900;
+}

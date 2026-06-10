@@ -1,0 +1,244 @@
+# Daily data refresh: fetches the latest matches/results/lineups/weather,
+# commits the JSON, then redeploys GitHub Pages with the fresh data.
+# (Bot pushes made with GITHUB_TOKEN do not trigger deploy.yml, so this
+# workflow carries its own deploy job.)
+name: Update World Cup data
+
+on:
+  schedule:
+    # BEGIN GENERATED SCHEDULE (bun run gencron — derived from the match calendar)
+    - cron: '0 4 * * *' # daily, 00:00 America/New_York (EDT)
+    - cron: '0 0 14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 6 *'
+    - cron: '15 0 15,18,21,23,24,26,27,28 6 *'
+    - cron: '20 0 20 6 *'
+    - cron: '30 0 15,18,20,21,23,24,26,27,28 6 *'
+    - cron: '45 0 15,18,20,21,23,24,26,27,28 6 *'
+    - cron: '50 0 13,14,16,17,19,22,25,30 6 *'
+    - cron: '0 1 13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30 6 *'
+    - cron: '15 1 13,14,16,17,19,20,21,22,23,25,27,28,30 6 *'
+    - cron: '30 1 13,14,16,17,19,20,21,22,23,25,27,28,30 6 *'
+    - cron: '45 1 13,14,16,17,19,20,21,22,23,25,27,30 6 *'
+    - cron: '50 1 12,15,18,24,26,28 6 *'
+    - cron: '0 2 12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30 6 *'
+    - cron: '15 2 12,13,14,15,16,17,18,19,20,22,24,25,26,28,30 6 *'
+    - cron: '30 2 12,13,14,15,16,17,18,19,20,22,24,25,26,28,30 6 *'
+    - cron: '45 2 12,13,14,15,16,17,18,19,22,24,25,26,28,30 6 *'
+    - cron: '50 2 20,23,27 6 *'
+    - cron: '0 3 12,13,14,15,16,17,18,19,20,22,23,24,25,26,27,28,30 6 *'
+    - cron: '15 3 12,15,18,20,23,24,26,27,28,30 6 *'
+    - cron: '30 3 12,15,18,20,23,24,26,27,28,30 6 *'
+    - cron: '45 3 12,15,18,20,23,24,26,27,28,30 6 *'
+    - cron: '50 3 14,17,21 6 *'
+    - cron: '0 4 12,14,15,17,18,20,21,23,24,26,27,28,30 6 *'
+    - cron: '15 4 14,17,20,21,23,27 6 *'
+    - cron: '30 4 14,17,20,21,23,27 6 *'
+    - cron: '45 4 14,17,20,21,23,27 6 *'
+    - cron: '0 5 14,17,20,21,23,27 6 *'
+    - cron: '15 5 14,17,21 6 *'
+    - cron: '30 5 14,17,21 6 *'
+    - cron: '45 5 14,17,21 6 *'
+    - cron: '0 6 14,17,21 6 *'
+    - cron: '50 15 15,18,21 6 *'
+    - cron: '0 16 15,18,21 6 *'
+    - cron: '15 16 15,18,21 6 *'
+    - cron: '30 16 15,18,21 6 *'
+    - cron: '45 16 15,18,21 6 *'
+    - cron: '50 16 14,17,20,22,23,29,30 6 *'
+    - cron: '0 17 14,15,17,18,20,21,22,23,29,30 6 *'
+    - cron: '15 17 14,15,17,18,20,21,22,23,29,30 6 *'
+    - cron: '30 17 14,15,17,18,20,21,22,23,29,30 6 *'
+    - cron: '45 17 14,15,17,18,20,21,22,23,29,30 6 *'
+    - cron: '0 18 14,15,17,18,20,21,22,23,29,30 6 *'
+    - cron: '15 18 14,17,20,22,23,29,30 6 *'
+    - cron: '30 18 14,17,20,22,23,29,30 6 *'
+    - cron: '45 18 14,17,20,22,23,29,30 6 *'
+    - cron: '50 18 11,12,13,15,16,18,19,21,24,26,28 6 *'
+    - cron: '0 19 11,12,13,14,15,16,17,18,19,20,21,22,23,24,26,28,29,30 6 *'
+    - cron: '15 19 11,12,13,15,16,18,19,21,24,26,28,29,30 6 *'
+    - cron: '30 19 11,12,13,15,16,18,19,21,24,26,28,29,30 6 *'
+    - cron: '45 19 11,12,13,15,16,18,19,21,24,26,28,29,30 6 *'
+    - cron: '50 19 14,17,20,23,25 6 *'
+    - cron: '0 20 11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,28,29,30 6 *'
+    - cron: '15 20 11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,28 6 *'
+    - cron: '20 20 29 6 *'
+    - cron: '30 20 11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,28,29 6 *'
+    - cron: '45 20 11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,28,29 6 *'
+    - cron: '50 20 22,27,30 6 *'
+    - cron: '0 21 11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 6 *'
+    - cron: '15 21 14,17,20,22,23,25,27,28,29,30 6 *'
+    - cron: '30 21 14,17,20,22,23,25,27,28,29,30 6 *'
+    - cron: '45 21 14,17,20,22,23,25,27,28,29,30 6 *'
+    - cron: '50 21 13,15,16,18,19,21,24 6 *'
+    - cron: '0 22 13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,30 6 *'
+    - cron: '15 22 13,15,16,18,19,21,22,24,27,29,30 6 *'
+    - cron: '30 22 13,15,16,18,19,21,22,24,27,29,30 6 *'
+    - cron: '45 22 13,15,16,18,19,21,22,24,27,29,30 6 *'
+    - cron: '50 22 14,17,23,25 6 *'
+    - cron: '0 23 13,14,15,16,17,18,19,21,22,23,24,25,27,29,30 6 *'
+    - cron: '15 23 13,14,15,16,17,18,19,21,23,24,25,29,30 6 *'
+    - cron: '20 23 27 6 *'
+    - cron: '30 23 13,14,15,16,17,18,19,21,23,24,25,27,29,30 6 *'
+    - cron: '45 23 13,14,15,16,17,18,19,21,23,24,25,27,30 6 *'
+    - cron: '50 23 20,22,26 6 *'
+    - cron: '0 0 1,2,3,4,5,6,7,12,19 7 *'
+    - cron: '15 0 2,3,4,6,7 7 *'
+    - cron: '30 0 2,3,4,6,7 7 *'
+    - cron: '45 0 2,3,4,6,7 7 *'
+    - cron: '50 0 1,12 7 *'
+    - cron: '0 1 1,2,3,4,6,7,12 7 *'
+    - cron: '15 1 1,2,3,6,7,12 7 *'
+    - cron: '20 1 4 7 *'
+    - cron: '30 1 1,2,3,4,6,7,12 7 *'
+    - cron: '45 1 1,2,3,4,6,7,12 7 *'
+    - cron: '0 2 1,2,3,4,6,7,12 7 *'
+    - cron: '15 2 1,2,4,6,7,12 7 *'
+    - cron: '30 2 1,2,4,6,7,12 7 *'
+    - cron: '45 2 1,2,4,6,7,12 7 *'
+    - cron: '50 2 3 7 *'
+    - cron: '0 3 1,2,3,4,6,7,12 7 *'
+    - cron: '15 3 1,3,4,12 7 *'
+    - cron: '30 3 1,3,4,12 7 *'
+    - cron: '45 3 1,3,4,12 7 *'
+    - cron: '0 4 1,3,4,12 7 *'
+    - cron: '15 4 3,4 7 *'
+    - cron: '30 4 3,4 7 *'
+    - cron: '45 4 3 7 *'
+    - cron: '0 5 3 7 *'
+    - cron: '15 5 3 7 *'
+    - cron: '30 5 3 7 *'
+    - cron: '45 5 3 7 *'
+    - cron: '0 6 3 7 *'
+    - cron: '50 15 1,7 7 *'
+    - cron: '0 16 1,7 7 *'
+    - cron: '15 16 1,7 7 *'
+    - cron: '30 16 1,7 7 *'
+    - cron: '45 16 1,7 7 *'
+    - cron: '50 16 4 7 *'
+    - cron: '0 17 1,4,7 7 *'
+    - cron: '15 17 1,4,7 7 *'
+    - cron: '30 17 1,4,7 7 *'
+    - cron: '45 17 1,4,7 7 *'
+    - cron: '50 17 3 7 *'
+    - cron: '0 18 1,3,4,7 7 *'
+    - cron: '15 18 1,3,4,7 7 *'
+    - cron: '30 18 1,3,4,7 7 *'
+    - cron: '45 18 1,3,4,7 7 *'
+    - cron: '50 18 2,6,10,14,15,19 7 *'
+    - cron: '0 19 1,2,3,4,6,7,10,14,15,19 7 *'
+    - cron: '15 19 2,3,4,6,10,14,15,19 7 *'
+    - cron: '30 19 2,3,4,6,10,14,15,19 7 *'
+    - cron: '45 19 2,3,4,6,10,14,15,19 7 *'
+    - cron: '50 19 1,5,7,9 7 *'
+    - cron: '0 20 1,2,3,4,5,6,7,9,10,14,15,19 7 *'
+    - cron: '15 20 1,2,3,5,6,7,9,10,14,15,19 7 *'
+    - cron: '30 20 1,2,3,5,6,7,9,10,14,15,19 7 *'
+    - cron: '45 20 1,2,3,5,6,7,9,10,14,15,19 7 *'
+    - cron: '50 20 4,11,18 7 *'
+    - cron: '0 21 1,2,3,4,5,6,7,9,10,11,14,15,18,19 7 *'
+    - cron: '15 21 1,2,4,5,6,7,9,10,11,14,15,18,19 7 *'
+    - cron: '30 21 1,2,4,5,6,7,9,10,11,14,15,18,19 7 *'
+    - cron: '45 21 1,2,4,5,6,7,9,10,11,14,15,18,19 7 *'
+    - cron: '50 21 3 7 *'
+    - cron: '0 22 1,2,3,4,5,6,7,9,10,11,14,15,18,19 7 *'
+    - cron: '15 22 1,3,4,5,7,9,11,18 7 *'
+    - cron: '30 22 1,3,4,5,7,9,11,18 7 *'
+    - cron: '45 22 1,3,4,5,7,9,11,18 7 *'
+    - cron: '50 22 2 7 *'
+    - cron: '0 23 1,2,3,4,5,7,9,11,18 7 *'
+    - cron: '15 23 2,3,4,11,18 7 *'
+    - cron: '30 23 2,3,4,11,18 7 *'
+    - cron: '45 23 2,3,4,11,18 7 *'
+    - cron: '50 23 1,5,6 7 *'
+    # END GENERATED SCHEDULE
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.3.10'
+      - run: bun install --frozen-lockfile
+      - run: bun run update
+      - name: Warn if the cron schedule drifted from the match calendar
+        run: bun scripts/gencron.mjs --check || echo "::warning::cron schedule drifted from match calendar — run bun run gencron"
+      - name: Sanity-check generated data before committing
+        run: |
+          node -e "
+            const m = require('./public/data/meta.json');
+            if (m.counts.matches !== 104 || m.counts.teams !== 48) {
+              console.error('refusing to commit suspicious data:', m.counts);
+              process.exit(1);
+            }
+            const { matches } = require('./public/data/matches.json');
+            if (matches.length !== 104) {
+              console.error('refusing to commit suspicious data: matches.json has', matches.length, 'matches');
+              process.exit(1);
+            }
+            const bad = matches.filter((x) => x.status === 'finished' && (x.home?.score == null || x.away?.score == null));
+            if (bad.length) {
+              console.error('refusing to commit suspicious data: finished matches with null scores:', bad.map((x) => x.id));
+              process.exit(1);
+            }
+            if (m.errors.length) console.warn('update warnings:', m.errors);
+          "
+      - name: Commit refreshed data
+        run: |
+          git config user.name 'wc2026-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add public/data public/flags scripts/cache
+          if git diff --cached --quiet; then
+            echo "no data changes to commit"
+            exit 0
+          fi
+          git commit -m "data: daily update $(date -u +%F)"
+          # main may have moved while the update ran — rebase and retry up to 3 times
+          for attempt in 1 2 3; do
+            git pull --rebase origin main || { echo "rebase failed (attempt $attempt)"; sleep 10; continue; }
+            if git push origin main; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt), retrying"
+            sleep 10
+          done
+          echo "::error::failed to push data commit after 3 attempts"
+          exit 1
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main # pick up the data commit pushed by the update job
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.3.10'
+      - run: bun install --frozen-lockfile
+      - run: bun run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

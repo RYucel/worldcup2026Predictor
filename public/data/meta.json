@@ -1,0 +1,20 @@
+{
+ "updatedAt": "2026-06-10T21:49:20.622Z",
+ "season": "285023",
+ "counts": {
+  "matches": 104,
+  "teams": 48,
+  "squads": 48,
+  "weather": 58,
+  "lineups": 0,
+  "flags": 179
+ },
+ "errors": [
+  "geocode New Tecumseth: no usable result — not cached, will retry next run"
+ ],
+ "sources": [
+  "api.fifa.com",
+  "en.wikipedia.org",
+  "open-meteo.com"
+ ]
+}

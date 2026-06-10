@@ -1,0 +1,4072 @@
+{
+ "matches": [
+  {
+   "id": "400021443",
+   "n": 1,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-11T19:00:00Z",
+   "venueId": "400222084",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "MEX",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "RSA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "A1",
+   "phB": "A2",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "361561",
+     "country": "BRA",
+     "role": "referee",
+     "name": {
+      "en": "Wilton SAMPAIO",
+      "fr": "Wilton SAMPAIO",
+      "zh": "Wilton SAMPAIO",
+      "ar": "Wilton SAMPAIO",
+      "es": "Wilton SAMPAIO",
+      "de": "Wilton SAMPAIO",
+      "pt": "Wilton SAMPAIO",
+      "it": "Wilton SAMPAIO",
+      "ja": "Wilton SAMPAIO",
+      "ko": "Wilton SAMPAIO",
+      "id": "Wilton SAMPAIO",
+      "ru": "Wilton SAMPAIO"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "391903",
+     "country": "BRA",
+     "role": "ar1",
+     "name": {
+      "en": "Bruno PIRES",
+      "fr": "Bruno PIRES",
+      "zh": "Bruno PIRES",
+      "ar": "Bruno PIRES",
+      "es": "Bruno PIRES",
+      "de": "Bruno PIRES",
+      "pt": "Bruno PIRES",
+      "it": "Bruno PIRES",
+      "ja": "Bruno PIRES",
+      "ko": "Bruno PIRES",
+      "id": "Bruno PIRES",
+      "ru": "Bruno PIRES"
+     },
+     "typeName": {
+      "en": "Assistant Referee 1",
+      "fr": "Arbitre assistant(e) 1",
+      "zh": "助理裁判员 1",
+      "ar": "الحَكم المساعد 1",
+      "es": "1.er árbitro asistente/1.ª árbitra asistente",
+      "de": "1. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 1",
+      "it": "Assistente arbitrale 1",
+      "ja": "副審 1",
+      "ko": "부심 1",
+      "id": "Asisten Wasit 1",
+      "ru": "Помощник судьи 1"
+     }
+    },
+    {
+     "id": "374168",
+     "country": "BRA",
+     "role": "ar2",
+     "name": {
+      "en": "Bruno BOSCHILIA",
+      "fr": "Bruno BOSCHILIA",
+      "zh": "Bruno BOSCHILIA",
+      "ar": "Bruno BOSCHILIA",
+      "es": "Bruno BOSCHILIA",
+      "de": "Bruno BOSCHILIA",
+      "pt": "Bruno BOSCHILIA",
+      "it": "Bruno BOSCHILIA",
+      "ja": "Bruno BOSCHILIA",
+      "ko": "Bruno BOSCHILIA",
+      "id": "Bruno BOSCHILIA",
+      "ru": "Bruno BOSCHILIA"
+     },
+     "typeName": {
+      "en": "Assistant Referee 2",
+      "fr": "Arbitre assistant(e) 2",
+      "zh": "助理裁判员 2",
+      "ar": "الحَكم المساعد 2",
+      "es": "2.º árbitro asistente/2.ª árbitra asistente",
+      "de": "2. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 2",
+      "it": "Assistente arbitrale 2",
+      "ja": "副審 2",
+      "ko": "부심 2",
+      "id": "Asisten Wasit 2",
+      "ru": "Помощник судьи 2"
+     }
+    },
+    {
+     "id": "416159",
+     "country": "PAR",
+     "role": "fourth",
+     "name": {
+      "en": "Juan Gabriel BENITEZ",
+      "fr": "Juan Gabriel BENITEZ",
+      "zh": "Juan Gabriel BENITEZ",
+      "ar": "Juan Gabriel BENITEZ",
+      "es": "Juan Gabriel BENITEZ",
+      "de": "Juan Gabriel BENITEZ",
+      "pt": "Juan Gabriel BENITEZ",
+      "it": "Juan Gabriel BENITEZ",
+      "ja": "Juan Gabriel BENITEZ",
+      "ko": "Juan Gabriel BENITEZ",
+      "id": "Juan Gabriel BENITEZ",
+      "ru": "Juan Gabriel BENITEZ"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    },
+    {
+     "id": "408580",
+     "country": "COL",
+     "role": "var",
+     "name": {
+      "en": "Nicolas GALLO",
+      "fr": "Nicolas GALLO",
+      "zh": "Nicolas GALLO",
+      "ar": "Nicolas GALLO",
+      "es": "Nicolas GALLO",
+      "de": "Nicolas GALLO",
+      "pt": "Nicolas GALLO",
+      "it": "Nicolas GALLO",
+      "ja": "Nicolas GALLO",
+      "ko": "Nicolas GALLO",
+      "id": "Nicolas GALLO",
+      "ru": "Nicolas GALLO"
+     },
+     "typeName": {
+      "en": "Video Assistant Referee (VAR)",
+      "fr": "Arbitre assistant(e) vidéo (VAR)",
+      "zh": "视频助理裁判 (VAR)",
+      "ar": "حَكم الفيديو المساعد",
+      "es": "Videoarbitraje (VAR)",
+      "de": "Video-Schiedsrichterassistent (VAR)",
+      "pt": "Árbitro assistente de vídeo (VAR)",
+      "it": "Video Assistant Referee (VAR)",
+      "ja": "ビデオアシスタントレフェリー（VAR）",
+      "ko": "비디오 판독 주심(VAR)",
+      "id": "Video Assistant Referee (VAR)",
+      "ru": "Видеопомощник арбитра (VAR)"
+     }
+    },
+    {
+     "id": "360921",
+     "country": "PAR",
+     "role": "type6",
+     "name": {
+      "en": "Eduardo CARDOZO",
+      "fr": "Eduardo CARDOZO",
+      "zh": "Eduardo CARDOZO",
+      "ar": "Eduardo CARDOZO",
+      "es": "Eduardo CARDOZO",
+      "de": "Eduardo CARDOZO",
+      "pt": "Eduardo CARDOZO",
+      "it": "Eduardo CARDOZO",
+      "ja": "Eduardo CARDOZO",
+      "ko": "Eduardo CARDOZO",
+      "id": "Eduardo CARDOZO",
+      "ru": "Eduardo CARDOZO"
+     },
+     "typeName": {
+      "en": "Reserve referee",
+      "fr": "Arbitre de réserve",
+      "zh": "储备裁判员",
+      "ar": "الحَكم الاحتياطي",
+      "es": "Árbitro/a de reserva",
+      "de": "Ersatzschiedsrichter",
+      "pt": "Árbitro reserva",
+      "it": "Arbitro di riserva",
+      "ja": "リザーブ主審",
+      "ko": "예비 주심",
+      "id": "Wasit cadangan",
+      "ru": "Резервный судья"
+     }
+    },
+    {
+     "id": "428539",
+     "country": "CHI",
+     "role": "type8",
+     "name": {
+      "en": "Juan LARA",
+      "fr": "Juan LARA",
+      "zh": "Juan LARA",
+      "ar": "Juan LARA",
+      "es": "Juan LARA",
+      "de": "Juan LARA",
+      "pt": "Juan LARA",
+      "it": "Juan LARA",
+      "ja": "Juan LARA",
+      "ko": "Juan LARA",
+      "id": "Juan LARA",
+      "ru": "Juan LARA"
+     },
+     "typeName": {
+      "en": "Assistant VAR",
+      "fr": "Assistant(e) VAR",
+      "zh": "助理 VAR",
+      "ar": "حَكم الفيديو المساعد",
+      "es": "Asistente del VAR",
+      "de": "VAR-Assistent",
+      "pt": "Assistente do VAR",
+      "it": "Assistente VAR",
+      "ja": "アシスタント VAR",
+      "ko": "비디오 판독 부심(AVAR)",
+      "id": "Asisten VAR",
+      "ru": "Помощник VAR"
+     }
+    },
+    {
+     "id": "408611",
+     "country": "FRA",
+     "role": "avar2",
+     "name": {
+      "en": "Jerome BRISARD",
+      "fr": "Jerome BRISARD",
+      "zh": "Jerome BRISARD",
+      "ar": "Jerome BRISARD",
+      "es": "Jerome BRISARD",
+      "de": "Jerome BRISARD",
+      "pt": "Jerome BRISARD",
+      "it": "Jerome BRISARD",
+      "ja": "Jerome BRISARD",
+      "ko": "Jerome BRISARD",
+      "id": "Jerome BRISARD",
+      "ru": "Jerome BRISARD"
+     },
+     "typeName": {
+      "en": "Support VAR",
+      "fr": "Soutien VAR",
+      "zh": "支持 VAR",
+      "ar": "تقنية حَكم الفيديو الداعم",
+      "es": "Asistente de apoyo",
+      "de": "Hilfs-VAR",
+      "pt": "Apoio do VAR",
+      "it": "Tecnico VAR",
+      "ja": "サポート VAR",
+      "ko": "VAR 지원 심판",
+      "id": "Pendukung VAR",
+      "ru": "Поддержка VAR"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021441",
+   "n": 2,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-12T02:00:00Z",
+   "venueId": "400252150",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "KOR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CZE",
+    "score": null,
+    "pen": null
+   },
+   "phA": "A3",
+   "phB": "A4",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "392013",
+     "country": "EGY",
+     "role": "referee",
+     "name": {
+      "en": "Amin MOHAMED",
+      "fr": "Amin MOHAMED",
+      "zh": "Amin MOHAMED",
+      "ar": "Amin MOHAMED",
+      "es": "Amin MOHAMED",
+      "de": "Amin MOHAMED",
+      "pt": "Amin MOHAMED",
+      "it": "Amin MOHAMED",
+      "ja": "Amin MOHAMED",
+      "ko": "Amin MOHAMED",
+      "id": "Amin MOHAMED",
+      "ru": "Amin MOHAMED"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "374527",
+     "country": "EGY",
+     "role": "ar1",
+     "name": {
+      "en": "Mahmoud ABOUELREGAL",
+      "fr": "Mahmoud ABOUELREGAL",
+      "zh": "Mahmoud ABOUELREGAL",
+      "ar": "Mahmoud ABOUELREGAL",
+      "es": "Mahmoud ABOUELREGAL",
+      "de": "Mahmoud ABOUELREGAL",
+      "pt": "Mahmoud ABOUELREGAL",
+      "it": "Mahmoud ABOUELREGAL",
+      "ja": "Mahmoud ABOUELREGAL",
+      "ko": "Mahmoud ABOUELREGAL",
+      "id": "Mahmoud ABOUELREGAL",
+      "ru": "Mahmoud ABOUELREGAL"
+     },
+     "typeName": {
+      "en": "Assistant Referee 1",
+      "fr": "Arbitre assistant(e) 1",
+      "zh": "助理裁判员 1",
+      "ar": "الحَكم المساعد 1",
+      "es": "1.er árbitro asistente/1.ª árbitra asistente",
+      "de": "1. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 1",
+      "it": "Assistente arbitrale 1",
+      "ja": "副審 1",
+      "ko": "부심 1",
+      "id": "Asisten Wasit 1",
+      "ru": "Помощник судьи 1"
+     }
+    },
+    {
+     "id": "374447",
+     "country": "EGY",
+     "role": "ar2",
+     "name": {
+      "en": "Ahmed HOSSAM TAHA",
+      "fr": "Ahmed HOSSAM TAHA",
+      "zh": "Ahmed HOSSAM TAHA",
+      "ar": "Ahmed HOSSAM TAHA",
+      "es": "Ahmed HOSSAM TAHA",
+      "de": "Ahmed HOSSAM TAHA",
+      "pt": "Ahmed HOSSAM TAHA",
+      "it": "Ahmed HOSSAM TAHA",
+      "ja": "Ahmed HOSSAM TAHA",
+      "ko": "Ahmed HOSSAM TAHA",
+      "id": "Ahmed HOSSAM TAHA",
+      "ru": "Ahmed HOSSAM TAHA"
+     },
+     "typeName": {
+      "en": "Assistant Referee 2",
+      "fr": "Arbitre assistant(e) 2",
+      "zh": "助理裁判员 2",
+      "ar": "الحَكم المساعد 2",
+      "es": "2.º árbitro asistente/2.ª árbitra asistente",
+      "de": "2. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 2",
+      "it": "Assistente arbitrale 2",
+      "ja": "副審 2",
+      "ko": "부심 2",
+      "id": "Asisten Wasit 2",
+      "ru": "Помощник судьи 2"
+     }
+    },
+    {
+     "id": "400250",
+     "country": "CRC",
+     "role": "fourth",
+     "name": {
+      "en": "Juan CALDERON",
+      "fr": "Juan CALDERON",
+      "zh": "Juan CALDERON",
+      "ar": "Juan CALDERON",
+      "es": "Juan CALDERON",
+      "de": "Juan CALDERON",
+      "pt": "Juan CALDERON",
+      "it": "Juan CALDERON",
+      "ja": "Juan CALDERON",
+      "ko": "Juan CALDERON",
+      "id": "Juan CALDERON",
+      "ru": "Juan CALDERON"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    },
+    {
+     "id": "327641",
+     "country": "EGY",
+     "role": "var",
+     "name": {
+      "en": "Mahmoud ASHOUR",
+      "fr": "Mahmoud ASHOUR",
+      "zh": "Mahmoud ASHOUR",
+      "ar": "Mahmoud ASHOUR",
+      "es": "Mahmoud ASHOUR",
+      "de": "Mahmoud ASHOUR",
+      "pt": "Mahmoud ASHOUR",
+      "it": "Mahmoud ASHOUR",
+      "ja": "Mahmoud ASHOUR",
+      "ko": "Mahmoud ASHOUR",
+      "id": "Mahmoud ASHOUR",
+      "ru": "Mahmoud ASHOUR"
+     },
+     "typeName": {
+      "en": "Video Assistant Referee (VAR)",
+      "fr": "Arbitre assistant(e) vidéo (VAR)",
+      "zh": "视频助理裁判 (VAR)",
+      "ar": "حَكم الفيديو المساعد",
+      "es": "Videoarbitraje (VAR)",
+      "de": "Video-Schiedsrichterassistent (VAR)",
+      "pt": "Árbitro assistente de vídeo (VAR)",
+      "it": "Video Assistant Referee (VAR)",
+      "ja": "ビデオアシスタントレフェリー（VAR）",
+      "ko": "비디오 판독 주심(VAR)",
+      "id": "Video Assistant Referee (VAR)",
+      "ru": "Видеопомощник арбитра (VAR)"
+     }
+    },
+    {
+     "id": "383469",
+     "country": "CRC",
+     "role": "type6",
+     "name": {
+      "en": "Juan Carlos MORA",
+      "fr": "Juan Carlos MORA",
+      "zh": "Juan Carlos MORA",
+      "ar": "Juan Carlos MORA",
+      "es": "Juan Carlos MORA",
+      "de": "Juan Carlos MORA",
+      "pt": "Juan Carlos MORA",
+      "it": "Juan Carlos MORA",
+      "ja": "Juan Carlos MORA",
+      "ko": "Juan Carlos MORA",
+      "id": "Juan Carlos MORA",
+      "ru": "Juan Carlos MORA"
+     },
+     "typeName": {
+      "en": "Reserve referee",
+      "fr": "Arbitre de réserve",
+      "zh": "储备裁判员",
+      "ar": "الحَكم الاحتياطي",
+      "es": "Árbitro/a de reserva",
+      "de": "Ersatzschiedsrichter",
+      "pt": "Árbitro reserva",
+      "it": "Arbitro di riserva",
+      "ja": "リザーブ主審",
+      "ko": "예비 주심",
+      "id": "Wasit cadangan",
+      "ru": "Резервный судья"
+     }
+    },
+    {
+     "id": "434155",
+     "country": "USA",
+     "role": "type8",
+     "name": {
+      "en": "Joe DICKERSON",
+      "fr": "Joe DICKERSON",
+      "zh": "Joe DICKERSON",
+      "ar": "Joe DICKERSON",
+      "es": "Joe DICKERSON",
+      "de": "Joe DICKERSON",
+      "pt": "Joe DICKERSON",
+      "it": "Joe DICKERSON",
+      "ja": "Joe DICKERSON",
+      "ko": "Joe DICKERSON",
+      "id": "Joe DICKERSON",
+      "ru": "Joe DICKERSON"
+     },
+     "typeName": {
+      "en": "Assistant VAR",
+      "fr": "Assistant(e) VAR",
+      "zh": "助理 VAR",
+      "ar": "حَكم الفيديو المساعد",
+      "es": "Asistente del VAR",
+      "de": "VAR-Assistent",
+      "pt": "Assistente do VAR",
+      "it": "Assistente VAR",
+      "ja": "アシスタント VAR",
+      "ko": "비디오 판독 부심(AVAR)",
+      "id": "Asisten VAR",
+      "ru": "Помощник VAR"
+     }
+    },
+    {
+     "id": "408210",
+     "country": "ITA",
+     "role": "avar2",
+     "name": {
+      "en": "Marco DI BELLO",
+      "fr": "Marco DI BELLO",
+      "zh": "Marco DI BELLO",
+      "ar": "Marco DI BELLO",
+      "es": "Marco DI BELLO",
+      "de": "Marco DI BELLO",
+      "pt": "Marco DI BELLO",
+      "it": "Marco DI BELLO",
+      "ja": "Marco DI BELLO",
+      "ko": "Marco DI BELLO",
+      "id": "Marco DI BELLO",
+      "ru": "Marco DI BELLO"
+     },
+     "typeName": {
+      "en": "Support VAR",
+      "fr": "Soutien VAR",
+      "zh": "支持 VAR",
+      "ar": "تقنية حَكم الفيديو الداعم",
+      "es": "Asistente de apoyo",
+      "de": "Hilfs-VAR",
+      "pt": "Apoio do VAR",
+      "it": "Tecnico VAR",
+      "ja": "サポート VAR",
+      "ko": "VAR 지원 심판",
+      "id": "Pendukung VAR",
+      "ru": "Поддержка VAR"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021449",
+   "n": 3,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-12T19:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CAN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "BIH",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B1",
+   "phB": "B2",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "416165",
+     "country": "ARG",
+     "role": "referee",
+     "name": {
+      "en": "Facundo TELLO",
+      "fr": "Facundo TELLO",
+      "zh": "Facundo TELLO",
+      "ar": "Facundo TELLO",
+      "es": "Facundo TELLO",
+      "de": "Facundo TELLO",
+      "pt": "Facundo TELLO",
+      "it": "Facundo TELLO",
+      "ja": "Facundo TELLO",
+      "ko": "Facundo TELLO",
+      "id": "Facundo TELLO",
+      "ru": "Facundo TELLO"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "328260",
+     "country": "ARG",
+     "role": "ar1",
+     "name": {
+      "en": "Juan Pablo BELATTI",
+      "fr": "Juan Pablo BELATTI",
+      "zh": "Juan Pablo BELATTI",
+      "ar": "Juan Pablo BELATTI",
+      "es": "Juan Pablo BELATTI",
+      "de": "Juan Pablo BELATTI",
+      "pt": "Juan Pablo BELATTI",
+      "it": "Juan Pablo BELATTI",
+      "ja": "Juan Pablo BELATTI",
+      "ko": "Juan Pablo BELATTI",
+      "id": "Juan Pablo BELATTI",
+      "ru": "Juan Pablo BELATTI"
+     },
+     "typeName": {
+      "en": "Assistant Referee 1",
+      "fr": "Arbitre assistant(e) 1",
+      "zh": "助理裁判员 1",
+      "ar": "الحَكم المساعد 1",
+      "es": "1.er árbitro asistente/1.ª árbitra asistente",
+      "de": "1. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 1",
+      "it": "Assistente arbitrale 1",
+      "ja": "副審 1",
+      "ko": "부심 1",
+      "id": "Asisten Wasit 1",
+      "ru": "Помощник судьи 1"
+     }
+    },
+    {
+     "id": "391866",
+     "country": "ARG",
+     "role": "ar2",
+     "name": {
+      "en": "Gabriel CHADE",
+      "fr": "Gabriel CHADE",
+      "zh": "Gabriel CHADE",
+      "ar": "Gabriel CHADE",
+      "es": "Gabriel CHADE",
+      "de": "Gabriel CHADE",
+      "pt": "Gabriel CHADE",
+      "it": "Gabriel CHADE",
+      "ja": "Gabriel CHADE",
+      "ko": "Gabriel CHADE",
+      "id": "Gabriel CHADE",
+      "ru": "Gabriel CHADE"
+     },
+     "typeName": {
+      "en": "Assistant Referee 2",
+      "fr": "Arbitre assistant(e) 2",
+      "zh": "助理裁判员 2",
+      "ar": "الحَكم المساعد 2",
+      "es": "2.º árbitro asistente/2.ª árbitra asistente",
+      "de": "2. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 2",
+      "it": "Assistente arbitrale 2",
+      "ja": "副審 2",
+      "ko": "부심 2",
+      "id": "Asisten Wasit 2",
+      "ru": "Помощник судьи 2"
+     }
+    },
+    {
+     "id": "392293",
+     "country": "KSA",
+     "role": "fourth",
+     "name": {
+      "en": "Khalid ALTURAIS",
+      "fr": "Khalid ALTURAIS",
+      "zh": "Khalid ALTURAIS",
+      "ar": "Khalid ALTURAIS",
+      "es": "Khalid ALTURAIS",
+      "de": "Khalid ALTURAIS",
+      "pt": "Khalid ALTURAIS",
+      "it": "Khalid ALTURAIS",
+      "ja": "Khalid ALTURAIS",
+      "ko": "Khalid ALTURAIS",
+      "id": "Khalid ALTURAIS",
+      "ru": "Khalid ALTURAIS"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    },
+    {
+     "id": "434969",
+     "country": "ARG",
+     "role": "var",
+     "name": {
+      "en": "Hernan MASTRANGELO",
+      "fr": "Hernan MASTRANGELO",
+      "zh": "Hernan MASTRANGELO",
+      "ar": "Hernan MASTRANGELO",
+      "es": "Hernan MASTRANGELO",
+      "de": "Hernan MASTRANGELO",
+      "pt": "Hernan MASTRANGELO",
+      "it": "Hernan MASTRANGELO",
+      "ja": "Hernan MASTRANGELO",
+      "ko": "Hernan MASTRANGELO",
+      "id": "Hernan MASTRANGELO",
+      "ru": "Hernan MASTRANGELO"
+     },
+     "typeName": {
+      "en": "Video Assistant Referee (VAR)",
+      "fr": "Arbitre assistant(e) vidéo (VAR)",
+      "zh": "视频助理裁判 (VAR)",
+      "ar": "حَكم الفيديو المساعد",
+      "es": "Videoarbitraje (VAR)",
+      "de": "Video-Schiedsrichterassistent (VAR)",
+      "pt": "Árbitro assistente de vídeo (VAR)",
+      "it": "Video Assistant Referee (VAR)",
+      "ja": "ビデオアシスタントレフェリー（VAR）",
+      "ko": "비디오 판독 주심(VAR)",
+      "id": "Video Assistant Referee (VAR)",
+      "ru": "Видеопомощник арбитра (VAR)"
+     }
+    },
+    {
+     "id": "373831",
+     "country": "KSA",
+     "role": "type6",
+     "name": {
+      "en": "Mohammed ALABAKRY",
+      "fr": "Mohammed ALABAKRY",
+      "zh": "Mohammed ALABAKRY",
+      "ar": "Mohammed ALABAKRY",
+      "es": "Mohammed ALABAKRY",
+      "de": "Mohammed ALABAKRY",
+      "pt": "Mohammed ALABAKRY",
+      "it": "Mohammed ALABAKRY",
+      "ja": "Mohammed ALABAKRY",
+      "ko": "Mohammed ALABAKRY",
+      "id": "Mohammed ALABAKRY",
+      "ru": "Mohammed ALABAKRY"
+     },
+     "typeName": {
+      "en": "Reserve referee",
+      "fr": "Arbitre de réserve",
+      "zh": "储备裁判员",
+      "ar": "الحَكم الاحتياطي",
+      "es": "Árbitro/a de reserva",
+      "de": "Ersatzschiedsrichter",
+      "pt": "Árbitro reserva",
+      "it": "Arbitro di riserva",
+      "ja": "リザーブ主審",
+      "ko": "예비 주심",
+      "id": "Wasit cadangan",
+      "ru": "Резервный судья"
+     }
+    },
+    {
+     "id": "446925",
+     "country": "URU",
+     "role": "type8",
+     "name": {
+      "en": "Antonio GARCIA",
+      "fr": "Antonio GARCIA",
+      "zh": "Antonio GARCIA",
+      "ar": "Antonio GARCIA",
+      "es": "Antonio GARCIA",
+      "de": "Antonio GARCIA",
+      "pt": "Antonio GARCIA",
+      "it": "Antonio GARCIA",
+      "ja": "Antonio GARCIA",
+      "ko": "Antonio GARCIA",
+      "id": "Antonio GARCIA",
+      "ru": "Antonio GARCIA"
+     },
+     "typeName": {
+      "en": "Assistant VAR",
+      "fr": "Assistant(e) VAR",
+      "zh": "助理 VAR",
+      "ar": "حَكم الفيديو المساعد",
+      "es": "Asistente del VAR",
+      "de": "VAR-Assistent",
+      "pt": "Assistente do VAR",
+      "it": "Assistente VAR",
+      "ja": "アシスタント VAR",
+      "ko": "비디오 판독 부심(AVAR)",
+      "id": "Asisten VAR",
+      "ru": "Помощник VAR"
+     }
+    },
+    {
+     "id": "373123",
+     "country": "NCA",
+     "role": "avar2",
+     "name": {
+      "en": "Tatiana GUZMAN",
+      "fr": "Tatiana GUZMAN",
+      "zh": "Tatiana GUZMAN",
+      "ar": "Tatiana GUZMAN",
+      "es": "Tatiana GUZMAN",
+      "de": "Tatiana GUZMAN",
+      "pt": "Tatiana GUZMAN",
+      "it": "Tatiana GUZMAN",
+      "ja": "Tatiana GUZMAN",
+      "ko": "Tatiana GUZMAN",
+      "id": "Tatiana GUZMAN",
+      "ru": "Tatiana GUZMAN"
+     },
+     "typeName": {
+      "en": "Support VAR",
+      "fr": "Soutien VAR",
+      "zh": "支持 VAR",
+      "ar": "تقنية حَكم الفيديو الداعم",
+      "es": "Asistente de apoyo",
+      "de": "Hilfs-VAR",
+      "pt": "Apoio do VAR",
+      "it": "Tecnico VAR",
+      "ja": "サポート VAR",
+      "ko": "VAR 지원 심판",
+      "id": "Pendukung VAR",
+      "ru": "Поддержка VAR"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021458",
+   "n": 4,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-13T01:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "USA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "PAR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D1",
+   "phB": "D2",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "327159",
+     "country": "NED",
+     "role": "referee",
+     "name": {
+      "en": "Danny MAKKELIE",
+      "fr": "Danny MAKKELIE",
+      "zh": "Danny MAKKELIE",
+      "ar": "Danny MAKKELIE",
+      "es": "Danny MAKKELIE",
+      "de": "Danny MAKKELIE",
+      "pt": "Danny MAKKELIE",
+      "it": "Danny MAKKELIE",
+      "ja": "Danny MAKKELIE",
+      "ko": "Danny MAKKELIE",
+      "id": "Danny MAKKELIE",
+      "ru": "Danny MAKKELIE"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "363986",
+     "country": "NED",
+     "role": "ar1",
+     "name": {
+      "en": "Hessel STEEGSTRA",
+      "fr": "Hessel STEEGSTRA",
+      "zh": "Hessel STEEGSTRA",
+      "ar": "Hessel STEEGSTRA",
+      "es": "Hessel STEEGSTRA",
+      "de": "Hessel STEEGSTRA",
+      "pt": "Hessel STEEGSTRA",
+      "it": "Hessel STEEGSTRA",
+      "ja": "Hessel STEEGSTRA",
+      "ko": "Hessel STEEGSTRA",
+      "id": "Hessel STEEGSTRA",
+      "ru": "Hessel STEEGSTRA"
+     },
+     "typeName": {
+      "en": "Assistant Referee 1",
+      "fr": "Arbitre assistant(e) 1",
+      "zh": "助理裁判员 1",
+      "ar": "الحَكم المساعد 1",
+      "es": "1.er árbitro asistente/1.ª árbitra asistente",
+      "de": "1. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 1",
+      "it": "Assistente arbitrale 1",
+      "ja": "副審 1",
+      "ko": "부심 1",
+      "id": "Asisten Wasit 1",
+      "ru": "Помощник судьи 1"
+     }
+    },
+    {
+     "id": "400210",
+     "country": "NED",
+     "role": "ar2",
+     "name": {
+      "en": "Jan DE VRIES",
+      "fr": "Jan DE VRIES",
+      "zh": "Jan DE VRIES",
+      "ar": "Jan DE VRIES",
+      "es": "Jan DE VRIES",
+      "de": "Jan DE VRIES",
+      "pt": "Jan DE VRIES",
+      "it": "Jan DE VRIES",
+      "ja": "Jan DE VRIES",
+      "ko": "Jan DE VRIES",
+      "id": "Jan DE VRIES",
+      "ru": "Jan DE VRIES"
+     },
+     "typeName": {
+      "en": "Assistant Referee 2",
+      "fr": "Arbitre assistant(e) 2",
+      "zh": "助理裁判员 2",
+      "ar": "الحَكم المساعد 2",
+      "es": "2.º árbitro asistente/2.ª árbitra asistente",
+      "de": "2. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 2",
+      "it": "Assistente arbitrale 2",
+      "ja": "副審 2",
+      "ko": "부심 2",
+      "id": "Asisten Wasit 2",
+      "ru": "Помощник судьи 2"
+     }
+    },
+    {
+     "id": "400040",
+     "country": "JPN",
+     "role": "fourth",
+     "name": {
+      "en": "Yusuke ARAKI",
+      "fr": "Yusuke ARAKI",
+      "zh": "Yusuke ARAKI",
+      "ar": "Yusuke ARAKI",
+      "es": "Yusuke ARAKI",
+      "de": "Yusuke ARAKI",
+      "pt": "Yusuke ARAKI",
+      "it": "Yusuke ARAKI",
+      "ja": "Yusuke ARAKI",
+      "ko": "Yusuke ARAKI",
+      "id": "Yusuke ARAKI",
+      "ru": "Yusuke ARAKI"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    },
+    {
+     "id": "360808",
+     "country": "ESP",
+     "role": "var",
+     "name": {
+      "en": "Carlos DEL CERRO GRANDE",
+      "fr": "Carlos DEL CERRO GRANDE",
+      "zh": "Carlos DEL CERRO GRANDE",
+      "ar": "Carlos DEL CERRO GRANDE",
+      "es": "Carlos DEL CERRO GRANDE",
+      "de": "Carlos DEL CERRO GRANDE",
+      "pt": "Carlos DEL CERRO GRANDE",
+      "it": "Carlos DEL CERRO GRANDE",
+      "ja": "Carlos DEL CERRO GRANDE",
+      "ko": "Carlos DEL CERRO GRANDE",
+      "id": "Carlos DEL CERRO GRANDE",
+      "ru": "Carlos DEL CERRO GRANDE"
+     },
+     "typeName": {
+      "en": "Video Assistant Referee (VAR)",
+      "fr": "Arbitre assistant(e) vidéo (VAR)",
+      "zh": "视频助理裁判 (VAR)",
+      "ar": "حَكم الفيديو المساعد",
+      "es": "Videoarbitraje (VAR)",
+      "de": "Video-Schiedsrichterassistent (VAR)",
+      "pt": "Árbitro assistente de vídeo (VAR)",
+      "it": "Video Assistant Referee (VAR)",
+      "ja": "ビデオアシスタントレフェリー（VAR）",
+      "ko": "비디오 판독 주심(VAR)",
+      "id": "Video Assistant Referee (VAR)",
+      "ru": "Видеопомощник арбитра (VAR)"
+     }
+    },
+    {
+     "id": "400157",
+     "country": "JPN",
+     "role": "type6",
+     "name": {
+      "en": "Jun MIHARA",
+      "fr": "Jun MIHARA",
+      "zh": "Jun MIHARA",
+      "ar": "Jun MIHARA",
+      "es": "Jun MIHARA",
+      "de": "Jun MIHARA",
+      "pt": "Jun MIHARA",
+      "it": "Jun MIHARA",
+      "ja": "Jun MIHARA",
+      "ko": "Jun MIHARA",
+      "id": "Jun MIHARA",
+      "ru": "Jun MIHARA"
+     },
+     "typeName": {
+      "en": "Reserve referee",
+      "fr": "Arbitre de réserve",
+      "zh": "储备裁判员",
+      "ar": "الحَكم الاحتياطي",
+      "es": "Árbitro/a de reserva",
+      "de": "Ersatzschiedsrichter",
+      "pt": "Árbitro reserva",
+      "it": "Arbitro di riserva",
+      "ja": "リザーブ主審",
+      "ko": "예비 주심",
+      "id": "Wasit cadangan",
+      "ru": "Резервный судья"
+     }
+    },
+    {
+     "id": "400325",
+     "country": "NED",
+     "role": "type8",
+     "name": {
+      "en": "Dennis HIGLER",
+      "fr": "Dennis HIGLER",
+      "zh": "Dennis HIGLER",
+      "ar": "Dennis HIGLER",
+      "es": "Dennis HIGLER",
+      "de": "Dennis HIGLER",
+      "pt": "Dennis HIGLER",
+      "it": "Dennis HIGLER",
+      "ja": "Dennis HIGLER",
+      "ko": "Dennis HIGLER",
+      "id": "Dennis HIGLER",
+      "ru": "Dennis HIGLER"
+     },
+     "typeName": {
+      "en": "Assistant VAR",
+      "fr": "Assistant(e) VAR",
+      "zh": "助理 VAR",
+      "ar": "حَكم الفيديو المساعد",
+      "es": "Asistente del VAR",
+      "de": "VAR-Assistent",
+      "pt": "Assistente do VAR",
+      "it": "Assistente VAR",
+      "ja": "アシスタント VAR",
+      "ko": "비디오 판독 부심(AVAR)",
+      "id": "Asisten VAR",
+      "ru": "Помощник VAR"
+     }
+    },
+    {
+     "id": "315190",
+     "country": "QAT",
+     "role": "avar2",
+     "name": {
+      "en": "Khamis ALMARRI",
+      "fr": "Khamis ALMARRI",
+      "zh": "Khamis ALMARRI",
+      "ar": "Khamis ALMARRI",
+      "es": "Khamis ALMARRI",
+      "de": "Khamis ALMARRI",
+      "pt": "Khamis ALMARRI",
+      "it": "Khamis ALMARRI",
+      "ja": "Khamis ALMARRI",
+      "ko": "Khamis ALMARRI",
+      "id": "Khamis ALMARRI",
+      "ru": "Khamis ALMARRI"
+     },
+     "typeName": {
+      "en": "Support VAR",
+      "fr": "Soutien VAR",
+      "zh": "支持 VAR",
+      "ar": "تقنية حَكم الفيديو الداعم",
+      "es": "Asistente de apoyo",
+      "de": "Hilfs-VAR",
+      "pt": "Apoio do VAR",
+      "it": "Tecnico VAR",
+      "ja": "サポート VAR",
+      "ko": "VAR 지원 심판",
+      "id": "Pendukung VAR",
+      "ru": "Поддержка VAR"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021453",
+   "n": 5,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-14T01:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "HAI",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SCO",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C3",
+   "phB": "C4",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "375306",
+     "country": "ALG",
+     "role": "referee",
+     "name": {
+      "en": "Mustapha GHORBAL",
+      "fr": "Mustapha GHORBAL",
+      "zh": "Mustapha GHORBAL",
+      "ar": "Mustapha GHORBAL",
+      "es": "Mustapha GHORBAL",
+      "de": "Mustapha GHORBAL",
+      "pt": "Mustapha GHORBAL",
+      "it": "Mustapha GHORBAL",
+      "ja": "Mustapha GHORBAL",
+      "ko": "Mustapha GHORBAL",
+      "id": "Mustapha GHORBAL",
+      "ru": "Mustapha GHORBAL"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "375314",
+     "country": "ALG",
+     "role": "ar1",
+     "name": {
+      "en": "Mokrane GOURARI",
+      "fr": "Mokrane GOURARI",
+      "zh": "Mokrane GOURARI",
+      "ar": "Mokrane GOURARI",
+      "es": "Mokrane GOURARI",
+      "de": "Mokrane GOURARI",
+      "pt": "Mokrane GOURARI",
+      "it": "Mokrane GOURARI",
+      "ja": "Mokrane GOURARI",
+      "ko": "Mokrane GOURARI",
+      "id": "Mokrane GOURARI",
+      "ru": "Mokrane GOURARI"
+     },
+     "typeName": {
+      "en": "Assistant Referee 1",
+      "fr": "Arbitre assistant(e) 1",
+      "zh": "助理裁判员 1",
+      "ar": "الحَكم المساعد 1",
+      "es": "1.er árbitro asistente/1.ª árbitra asistente",
+      "de": "1. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 1",
+      "it": "Assistente arbitrale 1",
+      "ja": "副審 1",
+      "ko": "부심 1",
+      "id": "Asisten Wasit 1",
+      "ru": "Помощник судьи 1"
+     }
+    },
+    {
+     "id": "400115",
+     "country": "ALG",
+     "role": "ar2",
+     "name": {
+      "en": "Abbes Akram ZERHOUNI",
+      "fr": "Abbes Akram ZERHOUNI",
+      "zh": "Abbes Akram ZERHOUNI",
+      "ar": "Abbes Akram ZERHOUNI",
+      "es": "Abbes Akram ZERHOUNI",
+      "de": "Abbes Akram ZERHOUNI",
+      "pt": "Abbes Akram ZERHOUNI",
+      "it": "Abbes Akram ZERHOUNI",
+      "ja": "Abbes Akram ZERHOUNI",
+      "ko": "Abbes Akram ZERHOUNI",
+      "id": "Abbes Akram ZERHOUNI",
+      "ru": "Abbes Akram ZERHOUNI"
+     },
+     "typeName": {
+      "en": "Assistant Referee 2",
+      "fr": "Arbitre assistant(e) 2",
+      "zh": "助理裁判员 2",
+      "ar": "الحَكم المساعد 2",
+      "es": "2.º árbitro asistente/2.ª árbitra asistente",
+      "de": "2. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 2",
+      "it": "Assistente arbitrale 2",
+      "ja": "副審 2",
+      "ko": "부심 2",
+      "id": "Asisten Wasit 2",
+      "ru": "Помощник судьи 2"
+     }
+    },
+    {
+     "id": "373845",
+     "country": "ESP",
+     "role": "fourth",
+     "name": {
+      "en": "Alejandro HERNANDEZ",
+      "fr": "Alejandro HERNANDEZ",
+      "zh": "Alejandro HERNANDEZ",
+      "ar": "Alejandro HERNANDEZ",
+      "es": "Alejandro HERNANDEZ",
+      "de": "Alejandro HERNANDEZ",
+      "pt": "Alejandro HERNANDEZ",
+      "it": "Alejandro HERNANDEZ",
+      "ja": "Alejandro HERNANDEZ",
+      "ko": "Alejandro HERNANDEZ",
+      "id": "Alejandro HERNANDEZ",
+      "ru": "Alejandro HERNANDEZ"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    },
+    {
+     "id": "425311",
+     "country": "ESP",
+     "role": "type6",
+     "name": {
+      "en": "Jose Enrique NARANJO",
+      "fr": "Jose Enrique NARANJO",
+      "zh": "Jose Enrique NARANJO",
+      "ar": "Jose Enrique NARANJO",
+      "es": "Jose Enrique NARANJO",
+      "de": "Jose Enrique NARANJO",
+      "pt": "Jose Enrique NARANJO",
+      "it": "Jose Enrique NARANJO",
+      "ja": "Jose Enrique NARANJO",
+      "ko": "Jose Enrique NARANJO",
+      "id": "Jose Enrique NARANJO",
+      "ru": "Jose Enrique NARANJO"
+     },
+     "typeName": {
+      "en": "Reserve referee",
+      "fr": "Arbitre de réserve",
+      "zh": "储备裁判员",
+      "ar": "الحَكم الاحتياطي",
+      "es": "Árbitro/a de reserva",
+      "de": "Ersatzschiedsrichter",
+      "pt": "Árbitro reserva",
+      "it": "Arbitro di riserva",
+      "ja": "リザーブ主審",
+      "ko": "예비 주심",
+      "id": "Wasit cadangan",
+      "ru": "Резервный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021463",
+   "n": 6,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-14T04:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "AUS",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "TUR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D3",
+   "phB": "D4",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "360305",
+     "country": "VEN",
+     "role": "referee",
+     "name": {
+      "en": "Jesus VALENZUELA",
+      "fr": "Jesus VALENZUELA",
+      "zh": "Jesus VALENZUELA",
+      "ar": "Jesus VALENZUELA",
+      "es": "Jesus VALENZUELA",
+      "de": "Jesus VALENZUELA",
+      "pt": "Jesus VALENZUELA",
+      "it": "Jesus VALENZUELA",
+      "ja": "Jesus VALENZUELA",
+      "ko": "Jesus VALENZUELA",
+      "id": "Jesus VALENZUELA",
+      "ru": "Jesus VALENZUELA"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "262055",
+     "country": "VEN",
+     "role": "ar1",
+     "name": {
+      "en": "Jorge URREGO",
+      "fr": "Jorge URREGO",
+      "zh": "Jorge URREGO",
+      "ar": "Jorge URREGO",
+      "es": "Jorge URREGO",
+      "de": "Jorge URREGO",
+      "pt": "Jorge URREGO",
+      "it": "Jorge URREGO",
+      "ja": "Jorge URREGO",
+      "ko": "Jorge URREGO",
+      "id": "Jorge URREGO",
+      "ru": "Jorge URREGO"
+     },
+     "typeName": {
+      "en": "Assistant Referee 1",
+      "fr": "Arbitre assistant(e) 1",
+      "zh": "助理裁判员 1",
+      "ar": "الحَكم المساعد 1",
+      "es": "1.er árbitro asistente/1.ª árbitra asistente",
+      "de": "1. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 1",
+      "it": "Assistente arbitrale 1",
+      "ja": "副審 1",
+      "ko": "부심 1",
+      "id": "Asisten Wasit 1",
+      "ru": "Помощник судьи 1"
+     }
+    },
+    {
+     "id": "349171",
+     "country": "VEN",
+     "role": "ar2",
+     "name": {
+      "en": "Tulio MORENO",
+      "fr": "Tulio MORENO",
+      "zh": "Tulio MORENO",
+      "ar": "Tulio MORENO",
+      "es": "Tulio MORENO",
+      "de": "Tulio MORENO",
+      "pt": "Tulio MORENO",
+      "it": "Tulio MORENO",
+      "ja": "Tulio MORENO",
+      "ko": "Tulio MORENO",
+      "id": "Tulio MORENO",
+      "ru": "Tulio MORENO"
+     },
+     "typeName": {
+      "en": "Assistant Referee 2",
+      "fr": "Arbitre assistant(e) 2",
+      "zh": "助理裁判员 2",
+      "ar": "الحَكم المساعد 2",
+      "es": "2.º árbitro asistente/2.ª árbitra asistente",
+      "de": "2. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 2",
+      "it": "Assistente arbitrale 2",
+      "ja": "副審 2",
+      "ko": "부심 2",
+      "id": "Asisten Wasit 2",
+      "ru": "Помощник судьи 2"
+     }
+    },
+    {
+     "id": "416161",
+     "country": "PER",
+     "role": "fourth",
+     "name": {
+      "en": "Kevin ORTEGA",
+      "fr": "Kevin ORTEGA",
+      "zh": "Kevin ORTEGA",
+      "ar": "Kevin ORTEGA",
+      "es": "Kevin ORTEGA",
+      "de": "Kevin ORTEGA",
+      "pt": "Kevin ORTEGA",
+      "it": "Kevin ORTEGA",
+      "ja": "Kevin ORTEGA",
+      "ko": "Kevin ORTEGA",
+      "id": "Kevin ORTEGA",
+      "ru": "Kevin ORTEGA"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    },
+    {
+     "id": "374831",
+     "country": "PER",
+     "role": "type6",
+     "name": {
+      "en": "Michael ORUE",
+      "fr": "Michael ORUE",
+      "zh": "Michael ORUE",
+      "ar": "Michael ORUE",
+      "es": "Michael ORUE",
+      "de": "Michael ORUE",
+      "pt": "Michael ORUE",
+      "it": "Michael ORUE",
+      "ja": "Michael ORUE",
+      "ko": "Michael ORUE",
+      "id": "Michael ORUE",
+      "ru": "Michael ORUE"
+     },
+     "typeName": {
+      "en": "Reserve referee",
+      "fr": "Arbitre de réserve",
+      "zh": "储备裁判员",
+      "ar": "الحَكم الاحتياطي",
+      "es": "Árbitro/a de reserva",
+      "de": "Ersatzschiedsrichter",
+      "pt": "Árbitro reserva",
+      "it": "Arbitro di riserva",
+      "ja": "リザーブ主審",
+      "ko": "예비 주심",
+      "id": "Wasit cadangan",
+      "ru": "Резервный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021456",
+   "n": 7,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-13T22:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "BRA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "MAR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C1",
+   "phB": "C2",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "315008",
+     "country": "SVN",
+     "role": "referee",
+     "name": {
+      "en": "Slavko VINCIC",
+      "fr": "Slavko VINCIC",
+      "zh": "Slavko VINCIC",
+      "ar": "Slavko VINCIC",
+      "es": "Slavko VINCIC",
+      "de": "Slavko VINCIC",
+      "pt": "Slavko VINCIC",
+      "it": "Slavko VINCIC",
+      "ja": "Slavko VINCIC",
+      "ko": "Slavko VINCIC",
+      "id": "Slavko VINCIC",
+      "ru": "Slavko VINCIC"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "374790",
+     "country": "SVN",
+     "role": "ar1",
+     "name": {
+      "en": "Tomaz KLANCNIK",
+      "fr": "Tomaz KLANCNIK",
+      "zh": "Tomaz KLANCNIK",
+      "ar": "Tomaz KLANCNIK",
+      "es": "Tomaz KLANCNIK",
+      "de": "Tomaz KLANCNIK",
+      "pt": "Tomaz KLANCNIK",
+      "it": "Tomaz KLANCNIK",
+      "ja": "Tomaz KLANCNIK",
+      "ko": "Tomaz KLANCNIK",
+      "id": "Tomaz KLANCNIK",
+      "ru": "Tomaz KLANCNIK"
+     },
+     "typeName": {
+      "en": "Assistant Referee 1",
+      "fr": "Arbitre assistant(e) 1",
+      "zh": "助理裁判员 1",
+      "ar": "الحَكم المساعد 1",
+      "es": "1.er árbitro asistente/1.ª árbitra asistente",
+      "de": "1. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 1",
+      "it": "Assistente arbitrale 1",
+      "ja": "副審 1",
+      "ko": "부심 1",
+      "id": "Asisten Wasit 1",
+      "ru": "Помощник судьи 1"
+     }
+    },
+    {
+     "id": "383670",
+     "country": "SVN",
+     "role": "ar2",
+     "name": {
+      "en": "Andraz KOVACIC",
+      "fr": "Andraz KOVACIC",
+      "zh": "Andraz KOVACIC",
+      "ar": "Andraz KOVACIC",
+      "es": "Andraz KOVACIC",
+      "de": "Andraz KOVACIC",
+      "pt": "Andraz KOVACIC",
+      "it": "Andraz KOVACIC",
+      "ja": "Andraz KOVACIC",
+      "ko": "Andraz KOVACIC",
+      "id": "Andraz KOVACIC",
+      "ru": "Andraz KOVACIC"
+     },
+     "typeName": {
+      "en": "Assistant Referee 2",
+      "fr": "Arbitre assistant(e) 2",
+      "zh": "助理裁判员 2",
+      "ar": "الحَكم المساعد 2",
+      "es": "2.º árbitro asistente/2.ª árbitra asistente",
+      "de": "2. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 2",
+      "it": "Assistente arbitrale 2",
+      "ja": "副審 2",
+      "ko": "부심 2",
+      "id": "Asisten Wasit 2",
+      "ru": "Помощник судьи 2"
+     }
+    },
+    {
+     "id": "383265",
+     "country": "SUI",
+     "role": "fourth",
+     "name": {
+      "en": "Sandro SCHAERER",
+      "fr": "Sandro SCHAERER",
+      "zh": "Sandro SCHAERER",
+      "ar": "Sandro SCHAERER",
+      "es": "Sandro SCHAERER",
+      "de": "Sandro SCHAERER",
+      "pt": "Sandro SCHAERER",
+      "it": "Sandro SCHAERER",
+      "ja": "Sandro SCHAERER",
+      "ko": "Sandro SCHAERER",
+      "id": "Sandro SCHAERER",
+      "ru": "Sandro SCHAERER"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    },
+    {
+     "id": "383264",
+     "country": "SUI",
+     "role": "type6",
+     "name": {
+      "en": "Stephane DE ALMEIDA",
+      "fr": "Stephane DE ALMEIDA",
+      "zh": "Stephane DE ALMEIDA",
+      "ar": "Stephane DE ALMEIDA",
+      "es": "Stephane DE ALMEIDA",
+      "de": "Stephane DE ALMEIDA",
+      "pt": "Stephane DE ALMEIDA",
+      "it": "Stephane DE ALMEIDA",
+      "ja": "Stephane DE ALMEIDA",
+      "ko": "Stephane DE ALMEIDA",
+      "id": "Stephane DE ALMEIDA",
+      "ru": "Stephane DE ALMEIDA"
+     },
+     "typeName": {
+      "en": "Reserve referee",
+      "fr": "Arbitre de réserve",
+      "zh": "储备裁判员",
+      "ar": "الحَكم الاحتياطي",
+      "es": "Árbitro/a de reserva",
+      "de": "Ersatzschiedsrichter",
+      "pt": "Árbitro reserva",
+      "it": "Arbitro di riserva",
+      "ja": "リザーブ主審",
+      "ko": "예비 주심",
+      "id": "Wasit cadangan",
+      "ru": "Резервный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021447",
+   "n": 8,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-13T19:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "QAT",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SUI",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B3",
+   "phB": "B4",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "400191",
+     "country": "HON",
+     "role": "referee",
+     "name": {
+      "en": "Said MARTINEZ",
+      "fr": "Said MARTINEZ",
+      "zh": "Said MARTINEZ",
+      "ar": "Said MARTINEZ",
+      "es": "Said MARTINEZ",
+      "de": "Said MARTINEZ",
+      "pt": "Said MARTINEZ",
+      "it": "Said MARTINEZ",
+      "ja": "Said MARTINEZ",
+      "ko": "Said MARTINEZ",
+      "id": "Said MARTINEZ",
+      "ru": "Said MARTINEZ"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "361341",
+     "country": "HON",
+     "role": "ar1",
+     "name": {
+      "en": "Walter LOPEZ",
+      "fr": "Walter LOPEZ",
+      "zh": "Walter LOPEZ",
+      "ar": "Walter LOPEZ",
+      "es": "Walter LOPEZ",
+      "de": "Walter LOPEZ",
+      "pt": "Walter LOPEZ",
+      "it": "Walter LOPEZ",
+      "ja": "Walter LOPEZ",
+      "ko": "Walter LOPEZ",
+      "id": "Walter LOPEZ",
+      "ru": "Walter LOPEZ"
+     },
+     "typeName": {
+      "en": "Assistant Referee 1",
+      "fr": "Arbitre assistant(e) 1",
+      "zh": "助理裁判员 1",
+      "ar": "الحَكم المساعد 1",
+      "es": "1.er árbitro asistente/1.ª árbitra asistente",
+      "de": "1. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 1",
+      "it": "Assistente arbitrale 1",
+      "ja": "副審 1",
+      "ko": "부심 1",
+      "id": "Asisten Wasit 1",
+      "ru": "Помощник судьи 1"
+     }
+    },
+    {
+     "id": "348332",
+     "country": "HON",
+     "role": "ar2",
+     "name": {
+      "en": "Christian RAMIREZ",
+      "fr": "Christian RAMIREZ",
+      "zh": "Christian RAMIREZ",
+      "ar": "Christian RAMIREZ",
+      "es": "Christian RAMIREZ",
+      "de": "Christian RAMIREZ",
+      "pt": "Christian RAMIREZ",
+      "it": "Christian RAMIREZ",
+      "ja": "Christian RAMIREZ",
+      "ko": "Christian RAMIREZ",
+      "id": "Christian RAMIREZ",
+      "ru": "Christian RAMIREZ"
+     },
+     "typeName": {
+      "en": "Assistant Referee 2",
+      "fr": "Arbitre assistant(e) 2",
+      "zh": "助理裁判员 2",
+      "ar": "الحَكم المساعد 2",
+      "es": "2.º árbitro asistente/2.ª árbitra asistente",
+      "de": "2. Schiedsrichterassistent",
+      "pt": "Árbitro assistente 2",
+      "it": "Assistente arbitrale 2",
+      "ja": "副審 2",
+      "ko": "부심 2",
+      "id": "Asisten Wasit 2",
+      "ru": "Помощник судьи 2"
+     }
+    },
+    {
+     "id": "408303",
+     "country": "JAM",
+     "role": "fourth",
+     "name": {
+      "en": "Oshane NATION",
+      "fr": "Oshane NATION",
+      "zh": "Oshane NATION",
+      "ar": "Oshane NATION",
+      "es": "Oshane NATION",
+      "de": "Oshane NATION",
+      "pt": "Oshane NATION",
+      "it": "Oshane NATION",
+      "ja": "Oshane NATION",
+      "ko": "Oshane NATION",
+      "id": "Oshane NATION",
+      "ru": "Oshane NATION"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    },
+    {
+     "id": "360677",
+     "country": "TRI",
+     "role": "type6",
+     "name": {
+      "en": "Caleb WALES",
+      "fr": "Caleb WALES",
+      "zh": "Caleb WALES",
+      "ar": "Caleb WALES",
+      "es": "Caleb WALES",
+      "de": "Caleb WALES",
+      "pt": "Caleb WALES",
+      "it": "Caleb WALES",
+      "ja": "Caleb WALES",
+      "ko": "Caleb WALES",
+      "id": "Caleb WALES",
+      "ru": "Caleb WALES"
+     },
+     "typeName": {
+      "en": "Reserve referee",
+      "fr": "Arbitre de réserve",
+      "zh": "储备裁判员",
+      "ar": "الحَكم الاحتياطي",
+      "es": "Árbitro/a de reserva",
+      "de": "Ersatzschiedsrichter",
+      "pt": "Árbitro reserva",
+      "it": "Arbitro di riserva",
+      "ja": "リザーブ主審",
+      "ko": "예비 주심",
+      "id": "Wasit cadangan",
+      "ru": "Резервный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021467",
+   "n": 9,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-14T23:00:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CIV",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ECU",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E3",
+   "phB": "E4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021464",
+   "n": 10,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-14T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "GER",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CUW",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E1",
+   "phB": "E2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021470",
+   "n": 11,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-14T20:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NED",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "JPN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F1",
+   "phB": "F2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021474",
+   "n": 12,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-15T02:00:00Z",
+   "venueId": "400238450",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SWE",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "TUN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F3",
+   "phB": "F4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021486",
+   "n": 13,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-15T22:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "KSA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "URU",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H3",
+   "phB": "H4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021482",
+   "n": 14,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-15T16:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ESP",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CPV",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H1",
+   "phB": "H2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021476",
+   "n": 15,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-16T01:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "IRN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "NZL",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G3",
+   "phB": "G4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021478",
+   "n": 16,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-15T19:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "BEL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "EGY",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G1",
+   "phB": "G2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021490",
+   "n": 17,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-16T19:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "FRA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SEN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I1",
+   "phB": "I2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021488",
+   "n": 18,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-16T22:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "IRQ",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "NOR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I3",
+   "phB": "I4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021496",
+   "n": 19,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-17T01:00:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ARG",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ALG",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J1",
+   "phB": "J2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021498",
+   "n": 20,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-17T04:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "AUT",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "JOR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J3",
+   "phB": "J4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021510",
+   "n": 21,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-17T23:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "GHA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "PAN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L3",
+   "phB": "L4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021507",
+   "n": 22,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-17T20:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ENG",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CRO",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L1",
+   "phB": "L2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021502",
+   "n": 23,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-17T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "POR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "COD",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K1",
+   "phB": "K2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021504",
+   "n": 24,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-18T02:00:00Z",
+   "venueId": "400222084",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "UZB",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "COL",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K3",
+   "phB": "K4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021440",
+   "n": 25,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-18T16:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CZE",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "RSA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "A4",
+   "phB": "A2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021446",
+   "n": 26,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-18T19:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SUI",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "BIH",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B4",
+   "phB": "B2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021450",
+   "n": 27,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-18T22:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CAN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "QAT",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B1",
+   "phB": "B3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021442",
+   "n": 28,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-19T01:00:00Z",
+   "venueId": "400252150",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "MEX",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "KOR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "A1",
+   "phB": "A3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021457",
+   "n": 29,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-20T00:30:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "BRA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "HAI",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C1",
+   "phB": "C3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021454",
+   "n": 30,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-19T22:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SCO",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "MAR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C4",
+   "phB": "C2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021460",
+   "n": 31,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-20T03:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "TUR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "PAR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D4",
+   "phB": "D2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021462",
+   "n": 32,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-19T19:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "USA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "AUS",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D1",
+   "phB": "D3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021469",
+   "n": 33,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-20T20:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "GER",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CIV",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E1",
+   "phB": "E3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021465",
+   "n": 34,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-21T00:00:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ECU",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CUW",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E4",
+   "phB": "E2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021472",
+   "n": 35,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-20T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NED",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SWE",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F1",
+   "phB": "F3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021475",
+   "n": 36,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-21T04:00:00Z",
+   "venueId": "400238450",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "TUN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "JPN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F4",
+   "phB": "F2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021487",
+   "n": 37,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-21T22:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "URU",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CPV",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H4",
+   "phB": "H2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021483",
+   "n": 38,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-21T16:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ESP",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "KSA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H1",
+   "phB": "H3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021477",
+   "n": 39,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-21T19:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "BEL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "IRN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G1",
+   "phB": "G3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021480",
+   "n": 40,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-22T01:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NZL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "EGY",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G4",
+   "phB": "G2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021491",
+   "n": 41,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-23T00:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NOR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SEN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I4",
+   "phB": "I2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021492",
+   "n": 42,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-22T21:00:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "FRA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "IRQ",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I1",
+   "phB": "I3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021494",
+   "n": 43,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-22T17:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ARG",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "AUT",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J1",
+   "phB": "J3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021499",
+   "n": 44,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-23T03:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "JOR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ALG",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J4",
+   "phB": "J2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021506",
+   "n": 45,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-23T20:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ENG",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "GHA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L1",
+   "phB": "L3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021511",
+   "n": 46,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-23T23:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "PAN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CRO",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L4",
+   "phB": "L2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021503",
+   "n": 47,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-23T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "POR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "UZB",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K1",
+   "phB": "K3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021501",
+   "n": 48,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-24T02:00:00Z",
+   "venueId": "400252150",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "COL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "COD",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K4",
+   "phB": "K2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021455",
+   "n": 49,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-24T22:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SCO",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "BRA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C4",
+   "phB": "C1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021452",
+   "n": 50,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-24T22:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "MAR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "HAI",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C2",
+   "phB": "C3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021451",
+   "n": 51,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-24T19:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SUI",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CAN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B4",
+   "phB": "B1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021448",
+   "n": 52,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-24T19:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "BIH",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "QAT",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B2",
+   "phB": "B3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021444",
+   "n": 53,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-25T01:00:00Z",
+   "venueId": "400222084",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CZE",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "MEX",
+    "score": null,
+    "pen": null
+   },
+   "phA": "A4",
+   "phB": "A1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021445",
+   "n": 54,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-25T01:00:00Z",
+   "venueId": "400238450",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "RSA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "KOR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "A2",
+   "phB": "A3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021468",
+   "n": 55,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-25T20:00:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CUW",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CIV",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E2",
+   "phB": "E3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021466",
+   "n": 56,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-25T20:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ECU",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "GER",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E4",
+   "phB": "E1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021471",
+   "n": 57,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-25T23:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "JPN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SWE",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F2",
+   "phB": "F3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021473",
+   "n": 58,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-25T23:00:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "TUN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "NED",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F4",
+   "phB": "F1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021459",
+   "n": 59,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-26T02:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "TUR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "USA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D4",
+   "phB": "D1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021461",
+   "n": 60,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-26T02:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "PAR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "AUS",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D2",
+   "phB": "D3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021489",
+   "n": 61,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-26T19:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NOR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "FRA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I4",
+   "phB": "I1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021493",
+   "n": 62,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-26T19:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SEN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "IRQ",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I2",
+   "phB": "I3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021479",
+   "n": 63,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-27T03:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "EGY",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "IRN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G2",
+   "phB": "G3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021481",
+   "n": 64,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-27T03:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NZL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "BEL",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G4",
+   "phB": "G1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021485",
+   "n": 65,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-27T00:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CPV",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "KSA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H2",
+   "phB": "H3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021484",
+   "n": 66,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-27T00:00:00Z",
+   "venueId": "400252150",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "URU",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ESP",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H4",
+   "phB": "H1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021508",
+   "n": 67,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-27T21:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "PAN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ENG",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L4",
+   "phB": "L1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021509",
+   "n": 68,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-27T21:00:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CRO",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "GHA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L2",
+   "phB": "L3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021497",
+   "n": 69,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-28T02:00:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ALG",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "AUT",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J2",
+   "phB": "J3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021495",
+   "n": 70,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-28T02:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "JOR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ARG",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J4",
+   "phB": "J1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021505",
+   "n": 71,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-27T23:30:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "COL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "POR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K4",
+   "phB": "K1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021500",
+   "n": 72,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-27T23:30:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "COD",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "UZB",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K2",
+   "phB": "K3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021518",
+   "n": 73,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-28T19:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "2A",
+   "phB": "2B",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021513",
+   "n": 74,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-29T20:30:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1E",
+   "phB": "3ABCDF",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021522",
+   "n": 75,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-30T01:00:00Z",
+   "venueId": "400238450",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1F",
+   "phB": "2C",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021516",
+   "n": 76,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-29T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1C",
+   "phB": "2F",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021523",
+   "n": 77,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-30T21:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1I",
+   "phB": "3CDFGH",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021514",
+   "n": 78,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-30T17:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "2E",
+   "phB": "2I",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021520",
+   "n": 79,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-01T01:00:00Z",
+   "venueId": "400222084",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1A",
+   "phB": "3CEFHI",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021512",
+   "n": 80,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-01T16:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1L",
+   "phB": "3EHIJK",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021524",
+   "n": 81,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-02T00:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1D",
+   "phB": "3BEFIJ",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021525",
+   "n": 82,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-01T20:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1G",
+   "phB": "3AEHIJ",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021526",
+   "n": 83,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-02T23:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "2K",
+   "phB": "2L",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021519",
+   "n": 84,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-02T19:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1H",
+   "phB": "2J",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021527",
+   "n": 85,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-03T03:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1B",
+   "phB": "3EFGIJ",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021521",
+   "n": 86,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-03T22:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1J",
+   "phB": "2H",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021517",
+   "n": 87,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-04T01:30:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1K",
+   "phB": "3DEIJL",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021515",
+   "n": 88,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-03T18:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "2D",
+   "phB": "2G",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021533",
+   "n": 89,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-04T21:00:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W74",
+   "phB": "W77",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021530",
+   "n": 90,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-04T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W73",
+   "phB": "W75",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021532",
+   "n": 91,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-05T20:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W76",
+   "phB": "W78",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021531",
+   "n": 92,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-06T00:00:00Z",
+   "venueId": "400222084",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W79",
+   "phB": "W80",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021529",
+   "n": 93,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-06T19:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W83",
+   "phB": "W84",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021534",
+   "n": 94,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-07T00:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W81",
+   "phB": "W82",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021528",
+   "n": 95,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-07T16:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W86",
+   "phB": "W88",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021535",
+   "n": 96,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-07T20:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W85",
+   "phB": "W87",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021536",
+   "n": 97,
+   "stage": "qf",
+   "group": null,
+   "date": "2026-07-09T20:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W89",
+   "phB": "W90",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021538",
+   "n": 98,
+   "stage": "qf",
+   "group": null,
+   "date": "2026-07-10T19:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W93",
+   "phB": "W94",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021539",
+   "n": 99,
+   "stage": "qf",
+   "group": null,
+   "date": "2026-07-11T21:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W91",
+   "phB": "W92",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021537",
+   "n": 100,
+   "stage": "qf",
+   "group": null,
+   "date": "2026-07-12T01:00:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W95",
+   "phB": "W96",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021541",
+   "n": 101,
+   "stage": "sf",
+   "group": null,
+   "date": "2026-07-14T19:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W97",
+   "phB": "W98",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021540",
+   "n": 102,
+   "stage": "sf",
+   "group": null,
+   "date": "2026-07-15T19:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W99",
+   "phB": "W100",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021542",
+   "n": 103,
+   "stage": "third",
+   "group": null,
+   "date": "2026-07-18T21:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "RU101",
+   "phB": "RU102",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021543",
+   "n": 104,
+   "stage": "final",
+   "group": null,
+   "date": "2026-07-19T19:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W101",
+   "phB": "W102",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  }
+ ]
+}

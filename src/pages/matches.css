@@ -1,0 +1,138 @@
+/* ============ Matches page (prefix mxp-) ============ */
+
+/* filter bar: normal flow (collapsible on mobile) */
+.mxp-bar {
+  margin: 0 0 16px;
+  padding: 4px 0 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* mobile toggle row */
+.mxp-toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.mxp-count {
+  margin-inline-start: auto;
+  white-space: nowrap;
+}
+@media (min-width: 760px) {
+  .mxp-toggle-row {
+    display: none;
+  }
+}
+
+/* collapsible panel */
+.mxp-panel {
+  display: none;
+}
+.mxp-panel.open {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+@media (min-width: 760px) {
+  .mxp-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+  }
+}
+
+/* selects + summary */
+.mxp-row1 {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.mxp-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 1 150px;
+  max-width: 300px;
+  min-width: 0;
+}
+.mxp-summary {
+  display: none;
+}
+@media (min-width: 760px) {
+  .mxp-summary {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-inline-start: auto;
+    padding-bottom: 7px;
+    white-space: nowrap;
+  }
+}
+
+/* team chips: fixed quick actions + scrollable 2-row strip of 48 teams */
+.mxp-teams-row {
+  display: flex;
+  flex-direction: column; /* quick actions on top, team chips wrap below */
+  gap: 8px;
+  min-width: 0;
+}
+.mxp-quick {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.mxp-teams {
+  display: flex;
+  flex-wrap: wrap; /* all 48 chips visible — no horizontal scrolling */
+  gap: 6px;
+  min-width: 0;
+  padding: 2px;
+}
+
+.mxp-tchip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elev);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    border-color 0.15s,
+    background 0.15s,
+    color 0.15s;
+}
+.mxp-tchip:hover {
+  background: var(--bg-sunken);
+}
+.mxp-tchip.on {
+  border-color: var(--accent);
+  color: var(--accent-text);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+/* mobile-only clear button row */
+.mxp-clear-row {
+  display: flex;
+}
+@media (min-width: 760px) {
+  .mxp-clear-row {
+    display: none;
+  }
+}
+
+/* day sections: sticky day headers sit right below the sticky filter bar */
+.mxp .day-head {
+  top: var(--hdr-h, 58px);
+}
+.mxp-day {
+  margin-bottom: 14px;
+}
