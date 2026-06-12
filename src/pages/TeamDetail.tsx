@@ -156,7 +156,6 @@ export default function TeamDetail() {
   const webUrl = webText ? `https://${webText}` : null
 
   const rows = standings.groups[team.group] ?? []
-  const opponents = rows.filter((r) => r.code !== code)
 
   return (
     <div className="team-detail">
@@ -291,22 +290,6 @@ export default function TeamDetail() {
               })}
             </tbody>
           </table>
-          {opponents.length > 0 && (
-            <div className="td-opps">
-              <span className="small muted">{t('groupOpponents')}</span>
-              <span className="td-opps-flags">
-                {opponents.map((r) => {
-                  const ot = teams[r.code] as Team | undefined
-                  const oName = ot ? pick(ot.name, r.code) : r.code
-                  return (
-                    <Link key={r.code} to={`/team/${r.code}`} title={oName} aria-label={oName}>
-                      <Flag team={ot} size={30} alt={oName} />
-                    </Link>
-                  )
-                })}
-              </span>
-            </div>
-          )}
         </section>
       </div>
 
