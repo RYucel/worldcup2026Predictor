@@ -44,7 +44,7 @@
   }
  ],
  "cards": {
-  "yellow": 5,
+  "yellow": 7,
   "red": 3,
   "players": [
    {
@@ -79,6 +79,20 @@
     "id": "464533",
     "name": "Brian GUTIERREZ",
     "code": "MEX",
+    "y": 1,
+    "r": 0
+   },
+   {
+    "id": "436743",
+    "name": "Ermedin DEMIROVIC",
+    "code": "BIH",
+    "y": 1,
+    "r": 0
+   },
+   {
+    "id": "519954",
+    "name": "Jovo LUKIC",
+    "code": "BIH",
     "y": 1,
     "r": 0
    },
