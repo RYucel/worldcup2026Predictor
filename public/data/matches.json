@@ -421,7 +421,7 @@
    "date": "2026-06-13T19:00:00Z",
    "venueId": "400257521",
    "status": "live",
-   "time": "12'",
+   "time": "24'",
    "home": {
     "code": "QAT",
     "score": 0,
@@ -429,7 +429,7 @@
    },
    "away": {
     "code": "SUI",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "B3",
