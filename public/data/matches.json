@@ -184,16 +184,16 @@
    "group": "D",
    "date": "2026-06-13T01:00:00Z",
    "venueId": "400017978",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "1'",
    "home": {
     "code": "USA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "PAR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "D1",
