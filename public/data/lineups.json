@@ -1993,11 +1993,18 @@
      "period": 3
     }
    ],
-   "bookings": [],
+   "bookings": [
+    {
+     "player": "401448",
+     "minute": "42'",
+     "card": 1,
+     "period": 3
+    }
+   ],
    "substitutions": []
   },
-  "matchTime": "40'",
-  "period": 3,
+  "matchTime": null,
+  "period": 4,
   "final": false
  },
  "400021449": {
