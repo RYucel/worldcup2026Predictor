@@ -2399,6 +2399,12 @@
      "minute": "45'+5'",
      "type": 2,
      "period": 3
+    },
+    {
+     "player": "419068",
+     "minute": "90'+8'",
+     "type": 2,
+     "period": 5
     }
    ],
    "bookings": [
@@ -2760,6 +2766,12 @@
      "minute": "88'",
      "card": 1,
      "period": 5
+    },
+    {
+     "player": "369749",
+     "minute": "90'+3'",
+     "card": 1,
+     "period": 5
     }
    ],
    "substitutions": [
@@ -2795,8 +2807,8 @@
     }
    ]
   },
-  "matchTime": "90'",
-  "period": 5,
-  "final": false
+  "matchTime": "99'",
+  "period": 10,
+  "final": true
  }
 }

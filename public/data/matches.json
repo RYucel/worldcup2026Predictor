@@ -184,11 +184,11 @@
    "group": "D",
    "date": "2026-06-13T01:00:00Z",
    "venueId": "400017978",
-   "status": "live",
-   "time": "90'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "USA",
-    "score": 3,
+    "score": 4,
     "pen": null
    },
    "away": {
@@ -198,7 +198,7 @@
    },
    "phA": "D1",
    "phB": "D2",
-   "winner": null,
+   "winner": "USA",
    "attendance": 70492,
    "officials": [
     {
