@@ -247,7 +247,9 @@ a.md-side {
 }
 .md-subs {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* minmax(0,…) lets the tracks shrink below their content's min-content width;
+     without it a long (unbreakable) name forces the 1fr track wider than the card */
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 16px;
   margin-top: 16px;
   padding: 0 6px;
@@ -284,9 +286,10 @@ a.md-side {
   flex: none;
 }
 .md-sub .nm {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  /* wrap long names onto a second line (like the goals list) instead of
+     overflowing; `anywhere` also breaks a single over-long token */
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .md-cap {
   flex: none;
