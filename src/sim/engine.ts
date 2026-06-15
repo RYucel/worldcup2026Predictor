@@ -182,13 +182,76 @@ export function simulateMatch(
   return out
 }
 
-// ---- group standings (FIFA tiebreakers, compact: pts/gd/gf then h2h then lot) ----
+// ---- group standings (FIFA tiebreakers) ----
 
-function tableFor(
-  codes: string[],
-  results: { h: string; a: string; gh: number; ga: number }[],
-  useH2h = true,
-): GroupRow[] {
+type Result = { h: string; a: string; gh: number; ga: number }
+
+/** pts/gd/gf over the matches played strictly among `codes` (head-to-head) */
+function miniTable(codes: string[], results: Result[]) {
+  const m: Record<string, { pts: number; gd: number; gf: number }> = {}
+  for (const c of codes) m[c] = { pts: 0, gd: 0, gf: 0 }
+  for (const r of results) {
+    const H = m[r.h]
+    const A = m[r.a]
+    if (!H || !A) continue
+    H.gd += r.gh - r.ga
+    A.gd += r.ga - r.gh
+    H.gf += r.gh
+    A.gf += r.ga
+    if (r.gh > r.ga) H.pts += 3
+    else if (r.gh < r.ga) A.pts += 3
+    else {
+      H.pts++
+      A.pts++
+    }
+  }
+  return m
+}
+
+// criteria d, e then FIFA ranking when head-to-head can't separate. Fair play
+// (criterion f) is omitted: the forecast doesn't simulate cards, so ranking is
+// the next usable separator before drawing of lots.
+function breakRemaining(rows: GroupRow[], rankOf: (c: string) => number): GroupRow[] {
+  return rows
+    .slice()
+    .sort(
+      (a, b) => b.gd - a.gd || b.gf - a.gf || rankOf(a.code) - rankOf(b.code) || a.code.localeCompare(b.code),
+    )
+}
+
+// order teams level on points by head-to-head (a pts, b GD, c GF), reapplied
+// recursively to any still-level subset, then criteria d-h via breakRemaining
+function resolveTie(rows: GroupRow[], results: Result[], rankOf: (c: string) => number): GroupRow[] {
+  if (rows.length < 2) return rows.slice()
+  const tied = new Set(rows.map((r) => r.code))
+  const mini = miniTable(
+    [...tied],
+    results.filter((r) => tied.has(r.h) && tied.has(r.a)),
+  )
+  const sub = rows
+    .slice()
+    .sort(
+      (a, b) =>
+        mini[b.code].pts - mini[a.code].pts ||
+        mini[b.code].gd - mini[a.code].gd ||
+        mini[b.code].gf - mini[a.code].gf ||
+        0,
+    )
+  const key = (r: GroupRow) => `${mini[r.code].pts}|${mini[r.code].gd}|${mini[r.code].gf}`
+  const out: GroupRow[] = []
+  for (let i = 0; i < sub.length; ) {
+    let j = i + 1
+    while (j < sub.length && key(sub[j]) === key(sub[i])) j++
+    const run = sub.slice(i, j)
+    if (run.length === 1) out.push(run[0])
+    else if (run.length < rows.length) out.push(...resolveTie(run, results, rankOf))
+    else out.push(...breakRemaining(run, rankOf))
+    i = j
+  }
+  return out
+}
+
+function tableFor(codes: string[], results: Result[], rankOf: (c: string) => number): GroupRow[] {
   const rows = new Map<string, GroupRow>(
     codes.map((c) => [c, { code: c, p: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 }]),
   )
@@ -219,24 +282,12 @@ function tableFor(
   }
   for (const row of rows.values()) row.gd = row.gf - row.ga
   const all = [...rows.values()]
-  const cmp = (x: GroupRow, y: GroupRow) => y.pts - x.pts || y.gd - x.gd || y.gf - x.gf
-  all.sort(cmp)
-  // h2h among exact ties (one level deep — drawing of lots beyond that)
-  if (!useH2h) return all
+  // primary: points; every set level on points goes through the FIFA procedure
+  all.sort((a, b) => b.pts - a.pts)
   for (let i = 0; i < all.length; ) {
     let j = i + 1
-    while (j < all.length && cmp(all[i], all[j]) === 0) j++
-    if (j - i > 1) {
-      const tied = new Set(all.slice(i, j).map((r) => r.code))
-      const mini = tableFor(
-        [...tied],
-        results.filter((r) => tied.has(r.h) && tied.has(r.a)),
-        false, // single level: identical mini-tables must not recurse forever
-      )
-      const order = new Map(mini.map((r, k) => [r.code, k]))
-      const seg = all.slice(i, j).sort((x, y) => (order.get(x.code) ?? 0) - (order.get(y.code) ?? 0))
-      all.splice(i, j - i, ...seg)
-    }
+    while (j < all.length && all[j].pts === all[i].pts) j++
+    if (j - i > 1) all.splice(i, j - i, ...resolveTie(all.slice(i, j), results, rankOf))
     i = j
   }
   return all
@@ -256,6 +307,8 @@ export function runTournament(
 ): SimRun {
   const results: Record<string, SimScore> = {}
   const vCountry = (m: Match) => (m.venueId ? venues[m.venueId]?.country : undefined)
+  // FIFA ranking tiebreaker (lower is better); null sinks to last
+  const rankOf = (c: string) => teams[c]?.ranking ?? Number.POSITIVE_INFINITY
 
   // 1. group stage
   const groupMatches = matches.filter((m) => m.stage === 'group')
@@ -293,12 +346,20 @@ export function runTournament(
         if (!m.home || !m.away) throw new Error('unreachable')
         return { h: m.home.code, a: m.away.code, gh: r.h, ga: r.a }
       })
-    groupTables[g] = tableFor(codes, rs)
+    groupTables[g] = tableFor(codes, rs, rankOf)
   }
 
-  // 2. best thirds: top 8 of 12 by pts/gd/gf
+  // 2. best thirds: top 8 of 12 by pts, GD, GF, then FIFA ranking (fair play
+  //    isn't simulatable), then lots
   const thirdRows = Object.entries(groupTables).map(([g, t]) => ({ group: g, row: t[2] }))
-  thirdRows.sort((x, y) => y.row.pts - x.row.pts || y.row.gd - x.row.gd || y.row.gf - x.row.gf)
+  thirdRows.sort(
+    (x, y) =>
+      y.row.pts - x.row.pts ||
+      y.row.gd - x.row.gd ||
+      y.row.gf - x.row.gf ||
+      rankOf(x.row.code) - rankOf(y.row.code) ||
+      x.group.localeCompare(y.group),
+  )
   const qualifiedThirds = new Set(thirdRows.slice(0, 8).map((t) => t.group))
 
   // 3. knockout: resolve placeholders match-number order; thirds need a
