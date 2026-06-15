@@ -29,7 +29,7 @@
     "zh-TW": "阿爾及利亞"
    },
    "iso2": "DZ",
-   "ranking": 28,
+   "ranking": 27,
    "rankingPrev": 28,
    "baseCamp": {
     "city": "Lawrence",
@@ -351,7 +351,7 @@
     "zh-TW": "加拿大"
    },
    "iso2": "CA",
-   "ranking": 31,
+   "ranking": 32,
    "rankingPrev": 30,
    "baseCamp": {
     "city": "Vancouver",
@@ -397,7 +397,7 @@
     "zh-TW": "象牙海岸"
    },
    "iso2": "CI",
-   "ranking": 33,
+   "ranking": 29,
    "rankingPrev": 33,
    "baseCamp": {
     "city": "Chester",
@@ -719,7 +719,7 @@
     "zh-TW": "厄瓜多"
    },
    "iso2": "EC",
-   "ranking": 25,
+   "ranking": 28,
    "rankingPrev": 23,
    "baseCamp": {
     "city": "Columbus",
@@ -765,7 +765,7 @@
     "zh-TW": "埃及"
    },
    "iso2": "EG",
-   "ranking": 29,
+   "ranking": 30,
    "rankingPrev": 29,
    "baseCamp": {
     "city": "Spokane",
@@ -1501,7 +1501,7 @@
     "zh-TW": "挪威"
    },
    "iso2": "NO",
-   "ranking": 30,
+   "ranking": 31,
    "rankingPrev": 31,
    "baseCamp": {
     "city": "Greensboro",
@@ -2050,7 +2050,7 @@
     "zh-TW": "土耳其"
    },
    "iso2": "TR",
-   "ranking": 27,
+   "ranking": 26,
    "rankingPrev": 22,
    "baseCamp": {
     "city": "Mesa",

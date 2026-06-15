@@ -265,25 +265,25 @@
    },
    {
     "code": "CIV",
-    "p": 0,
-    "w": 0,
+    "p": 1,
+    "w": 1,
     "d": 0,
     "l": 0,
-    "gf": 0,
+    "gf": 1,
     "ga": 0,
-    "gd": 0,
-    "pts": 0,
+    "gd": 1,
+    "pts": 3,
     "rank": 2
    },
    {
     "code": "ECU",
-    "p": 0,
+    "p": 1,
     "w": 0,
     "d": 0,
-    "l": 0,
+    "l": 1,
     "gf": 0,
-    "ga": 0,
-    "gd": 0,
+    "ga": 1,
+    "gd": -1,
     "pts": 0,
     "rank": 3
    },
@@ -633,21 +633,6 @@
    "qualifies": null
   },
   {
-   "group": "E",
-   "code": "ECU",
-   "p": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "gf": 0,
-   "ga": 0,
-   "gd": 0,
-   "pts": 0,
-   "rank": 3,
-   "thirdRank": 3,
-   "qualifies": null
-  },
-  {
    "group": "F",
    "code": "SWE",
    "p": 0,
@@ -659,7 +644,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 4,
+   "thirdRank": 3,
    "qualifies": null
   },
   {
@@ -674,7 +659,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 5,
+   "thirdRank": 4,
    "qualifies": null
   },
   {
@@ -689,7 +674,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 6,
+   "thirdRank": 5,
    "qualifies": null
   },
   {
@@ -704,7 +689,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 7,
+   "thirdRank": 6,
    "qualifies": null
   },
   {
@@ -719,7 +704,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 8,
+   "thirdRank": 7,
    "qualifies": null
   },
   {
@@ -734,7 +719,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 9,
+   "thirdRank": 8,
    "qualifies": null
   },
   {
@@ -749,7 +734,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 10,
+   "thirdRank": 9,
    "qualifies": null
   },
   {
@@ -761,6 +746,21 @@
    "l": 1,
    "gf": 1,
    "ga": 2,
+   "gd": -1,
+   "pts": 0,
+   "rank": 3,
+   "thirdRank": 10,
+   "qualifies": null
+  },
+  {
+   "group": "E",
+   "code": "ECU",
+   "p": 1,
+   "w": 0,
+   "d": 0,
+   "l": 1,
+   "gf": 0,
+   "ga": 1,
    "gd": -1,
    "pts": 0,
    "rank": 3,

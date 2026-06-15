@@ -479,8 +479,8 @@
    "group": "E",
    "date": "2026-06-14T23:00:00Z",
    "venueId": "400248622",
-   "status": "live",
-   "time": "90'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "CIV",
     "score": 1,
@@ -493,7 +493,7 @@
    },
    "phA": "E3",
    "phB": "E4",
-   "winner": null,
+   "winner": "CIV",
    "attendance": 68274,
    "officials": [
     {
