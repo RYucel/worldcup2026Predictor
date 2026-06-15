@@ -1133,7 +1133,7 @@
     "zh-TW": "伊拉克"
    },
    "iso2": "IQ",
-   "ranking": 57,
+   "ranking": 58,
    "rankingPrev": 57,
    "baseCamp": {
     "city": "White Sulphur Springs",
@@ -1317,7 +1317,7 @@
     "zh-TW": "沙烏地阿拉伯"
    },
    "iso2": "SA",
-   "ranking": 60,
+   "ranking": 49,
    "rankingPrev": 61,
    "baseCamp": {
     "city": "Austin",
@@ -1728,7 +1728,7 @@
     "zh-TW": "卡達"
    },
    "iso2": "QA",
-   "ranking": 49,
+   "ranking": 50,
    "rankingPrev": 56,
    "baseCamp": {
     "city": "Santa Barbara",
@@ -1912,7 +1912,7 @@
     "zh-TW": "瑞士"
    },
    "iso2": "CH",
-   "ranking": 19,
+   "ranking": 18,
    "rankingPrev": 19,
    "baseCamp": {
     "city": "San Diego",
@@ -2004,7 +2004,7 @@
     "zh-TW": "突尼西亞"
    },
    "iso2": "TN",
-   "ranking": 56,
+   "ranking": 57,
    "rankingPrev": 45,
    "baseCamp": {
     "city": "Monterrey",
@@ -2096,7 +2096,7 @@
     "zh-TW": "烏拉圭"
    },
    "iso2": "UY",
-   "ranking": 18,
+   "ranking": 19,
    "rankingPrev": 16,
    "baseCamp": {
     "city": "Playa del Carmen",
@@ -2188,7 +2188,7 @@
     "zh-TW": "烏茲別克"
    },
    "iso2": "UZ",
-   "ranking": 50,
+   "ranking": 51,
    "rankingPrev": 50,
    "baseCamp": {
     "city": "Marietta",

@@ -716,10 +716,10 @@
    "date": "2026-06-15T22:00:00Z",
    "venueId": "400257525",
    "status": "live",
-   "time": "40'",
+   "time": null,
    "home": {
     "code": "KSA",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {

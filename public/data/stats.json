@@ -25,6 +25,14 @@
    "ownGoals": 0
   },
   {
+   "id": "403312",
+   "name": "ALAMRI",
+   "code": "KSA",
+   "no": 4,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "430150",
    "name": "Alexander ISAK",
    "code": "SWE",
@@ -282,7 +290,7 @@
   }
  ],
  "cards": {
-  "yellow": 39,
+  "yellow": 40,
   "red": 3,
   "players": [
    {
@@ -322,6 +330,14 @@
     "name": "AHMED FATOUH",
     "code": "EGY",
     "no": 13,
+    "y": 1,
+    "r": 0
+   },
+   {
+    "id": "403312",
+    "name": "ALAMRI",
+    "code": "KSA",
+    "no": 4,
     "y": 1,
     "r": 0
    },
@@ -434,14 +450,6 @@
     "name": "Jean-Ricner BELLEGARDE",
     "code": "HAI",
     "no": 10,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "519954",
-    "name": "Jovo LUKIC",
-    "code": "BIH",
-    "no": 25,
     "y": 1,
     "r": 0
    }
