@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import type { Lang, MatchSide, Official, TeamLineup } from '../types'
 import { DATA_FALLBACK, useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
@@ -77,7 +77,6 @@ interface GoalRow {
 
 export default function MatchDetail() {
   const { id } = useParams()
-  const navigate = useNavigate()
   const { t, pick, countryName, locale, lang } = useI18n()
   // FIFA localizes typeName in 12 languages; for the rest prefer our dictionary
   // role names over typeName's English fallback
@@ -198,10 +197,6 @@ export default function MatchDetail() {
       <div className="card">
         <div className="empty">
           <p>{t('matchNotFound')}</p>
-          <Link className="btn" to="/">
-            <Icon name="back" size={17} />
-            {t('backToList')}
-          </Link>
         </div>
       </div>
     )
@@ -229,11 +224,6 @@ export default function MatchDetail() {
 
   return (
     <div>
-      <button type="button" className="btn md-back" onClick={() => navigate(-1)}>
-        <Icon name="back" size={17} />
-        {t('backToList')}
-      </button>
-
       {/* ===== header card ===== */}
       <div className="card md-hero">
         <div className="md-hero-top">

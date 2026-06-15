@@ -176,10 +176,6 @@ export default function TeamDetail() {
     return (
       <div className="empty">
         <p>{t('teamNotFound')}</p>
-        <Link to="/teams" className="btn">
-          <Icon name="back" size={16} />
-          {t('backToList')}
-        </Link>
       </div>
     )
   }
@@ -229,11 +225,6 @@ export default function TeamDetail() {
 
   return (
     <div className="team-detail">
-      <Link to="/teams" className="td-back">
-        <Icon name="back" size={15} />
-        {t('backToList')}
-      </Link>
-
       <header className="card card-pad td-hero" style={heroStyle}>
         <Flag team={team} size={64} alt={name} />
         <div className="td-hero-main">

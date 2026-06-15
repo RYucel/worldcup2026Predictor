@@ -1,21 +1,5 @@
 /* ===== TeamDetail page (prefix: td-) ===== */
 
-.td-back {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-weight: 650;
-  font-size: 0.85rem;
-  color: var(--text-2);
-  margin-bottom: 12px;
-}
-.td-back:hover {
-  color: var(--text);
-}
-[dir="rtl"] .td-back svg {
-  transform: scaleX(-1);
-} /* back chevron points the other way in RTL */
-
 /* ---- hero ---- */
 .td-hero {
   position: relative;

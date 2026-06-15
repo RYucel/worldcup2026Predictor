@@ -1,13 +1,5 @@
 /* ===== Match detail page (md-) ===== */
 
-.md-back {
-  margin-bottom: 14px;
-  min-height: 44px; /* comfortable touch target */
-}
-[dir="rtl"] .md-back svg {
-  transform: scaleX(-1); /* back chevron points the other way in RTL */
-}
-
 /* --- hero --- */
 .md-hero {
   padding: 16px;
