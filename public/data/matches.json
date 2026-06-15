@@ -774,16 +774,16 @@
    "group": "H",
    "date": "2026-06-15T16:00:00Z",
    "venueId": "400098290",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "5'",
    "home": {
     "code": "ESP",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "CPV",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "H1",
