@@ -1313,7 +1313,7 @@
    "date": "2026-06-17T20:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "ENG",
     "score": null,
@@ -1371,8 +1371,8 @@
    "group": "K",
    "date": "2026-06-17T17:00:00Z",
    "venueId": "400249385",
-   "status": "live",
-   "time": "90'+2'",
+   "status": "finished",
+   "time": "95'",
    "home": {
     "code": "POR",
     "score": 1,

@@ -302,31 +302,31 @@
   ],
   "K": [
    {
-    "code": "POR",
-    "p": 0,
+    "code": "COD",
+    "p": 1,
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "gf": 0,
-    "ga": 0,
+    "gf": 1,
+    "ga": 1,
     "gd": 0,
-    "pts": 0,
+    "pts": 1,
     "rank": 1
    },
    {
-    "code": "COL",
-    "p": 0,
+    "code": "POR",
+    "p": 1,
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "gf": 0,
-    "ga": 0,
+    "gf": 1,
+    "ga": 1,
     "gd": 0,
-    "pts": 0,
+    "pts": 1,
     "rank": 2
    },
    {
-    "code": "COD",
+    "code": "COL",
     "p": 0,
     "w": 0,
     "d": 0,
@@ -678,8 +678,8 @@
    "qualifies": null
   },
   {
-   "group": "L",
-   "code": "PAN",
+   "group": "K",
+   "code": "COL",
    "p": 0,
    "w": 0,
    "d": 0,
@@ -693,8 +693,8 @@
    "qualifies": null
   },
   {
-   "group": "K",
-   "code": "COD",
+   "group": "L",
+   "code": "PAN",
    "p": 0,
    "w": 0,
    "d": 0,
