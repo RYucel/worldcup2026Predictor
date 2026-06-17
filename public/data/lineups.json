@@ -14061,7 +14061,14 @@
      "period": 3
     }
    ],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "395205",
+     "on": "485081",
+     "minute": "",
+     "period": 4
+    }
+   ]
   },
   "away": {
    "tactics": "5-3-2",
@@ -14373,8 +14380,8 @@
    ],
    "substitutions": []
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "49'",
+  "period": 5,
   "final": false
  },
  "400021507": {
