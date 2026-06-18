@@ -563,10 +563,23 @@
     }
    ],
    "goals": [],
-   "bookings": [],
+   "bookings": [
+    {
+     "player": "403616",
+     "minute": "33'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "494248",
+     "minute": "40'",
+     "card": 1,
+     "period": 3
+    }
+   ],
    "substitutions": []
   },
-  "matchTime": "31'",
+  "matchTime": "45'+1'",
   "period": 3,
   "final": false
  },
