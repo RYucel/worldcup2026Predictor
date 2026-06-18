@@ -65,6 +65,14 @@
    "ownGoals": 0
   },
   {
+   "id": "464933",
+   "name": "Abbosbek FAYZULLAEV",
+   "code": "UZB",
+   "no": 22,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "403312",
    "name": "ALAMRI",
    "code": "KSA",
@@ -281,6 +289,14 @@
    "ownGoals": 0
   },
   {
+   "id": "428886",
+   "name": "Luis DIAZ",
+   "code": "COL",
+   "no": 7,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "448497",
    "name": "M.MOHEBBI",
    "code": "IRN",
@@ -301,22 +317,6 @@
    "name": "Mattias SVANBERG",
    "code": "SWE",
    "no": 19,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "495046",
-   "name": "MAURICIO",
-   "code": "PAR",
-   "no": 11,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "419100",
-   "name": "Maxi ARAUJO",
-   "code": "URU",
-   "no": 20,
    "goals": 1,
    "ownGoals": 0
   }

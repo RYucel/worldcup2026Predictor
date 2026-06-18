@@ -1431,15 +1431,15 @@
    "date": "2026-06-18T02:00:00Z",
    "venueId": "400222084",
    "status": "live",
-   "time": "57'",
+   "time": "71'",
    "home": {
     "code": "UZB",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "COL",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "phA": "K3",
