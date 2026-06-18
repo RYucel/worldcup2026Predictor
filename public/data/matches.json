@@ -1582,7 +1582,7 @@
    "date": "2026-06-18T19:00:00Z",
    "venueId": "400017978",
    "status": "live",
-   "time": "36'",
+   "time": null,
    "home": {
     "code": "SUI",
     "score": 0,
