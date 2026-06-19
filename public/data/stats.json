@@ -105,6 +105,14 @@
    "ownGoals": 0
   },
   {
+   "id": "464542",
+   "name": "Alex FREEMAN",
+   "code": "USA",
+   "no": 16,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "430150",
    "name": "Alexander ISAK",
    "code": "SWE",
@@ -309,14 +317,6 @@
    "name": "Leo OSTIGARD",
    "code": "NOR",
    "no": 4,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "494989",
-   "name": "Livano COMENENCIA",
-   "code": "CUW",
-   "no": 8,
    "goals": 1,
    "ownGoals": 0
   }
