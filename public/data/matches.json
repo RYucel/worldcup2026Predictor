@@ -1759,7 +1759,7 @@
    "date": "2026-06-20T00:30:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BRA",
     "score": null,
@@ -1818,7 +1818,7 @@
    "date": "2026-06-19T22:00:00Z",
    "venueId": "400248623",
    "status": "live",
-   "time": null,
+   "time": "49'",
    "home": {
     "code": "SCO",
     "score": 0,
