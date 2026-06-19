@@ -1969,10 +1969,10 @@
    "date": "2026-06-19T19:00:00Z",
    "venueId": "400216606",
    "status": "live",
-   "time": "2'",
+   "time": "16'",
    "home": {
     "code": "USA",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
