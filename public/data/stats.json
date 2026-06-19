@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 64,
+  "yellow": 65,
   "red": 6,
   "players": [
    {
@@ -446,6 +446,14 @@
     "r": 0
    },
    {
+    "id": "441251",
+    "name": "Antonee ROBINSON",
+    "code": "USA",
+    "no": 5,
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "395205",
     "name": "BERNARDO",
     "code": "POR",
@@ -474,14 +482,6 @@
     "name": "Carlos HARVEY",
     "code": "PAN",
     "no": 14,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "308386",
-    "name": "CASEMIRO",
-    "code": "BRA",
-    "no": 5,
     "y": 1,
     "r": 0
    }
