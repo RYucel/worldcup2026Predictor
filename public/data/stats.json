@@ -25,6 +25,14 @@
    "ownGoals": 0
   },
   {
+   "id": "448152",
+   "name": "Cody GAKPO",
+   "code": "NED",
+   "no": 11,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "390670",
    "name": "Cyle LARIN",
    "code": "CAN",
@@ -169,6 +177,14 @@
    "ownGoals": 0
   },
   {
+   "id": "441137",
+   "name": "Anthony ELANGA",
+   "code": "SWE",
+   "no": 11,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "395186",
    "name": "AYMEN HUSSEIN",
    "code": "IRQ",
@@ -197,14 +213,6 @@
    "name": "Caleb YIRENKYI",
    "code": "GHA",
    "no": 3,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "448152",
-   "name": "Cody GAKPO",
-   "code": "NED",
-   "no": 11,
    "goals": 1,
    "ownGoals": 0
   },
@@ -309,14 +317,6 @@
    "name": "Jamal MUSIALA",
    "code": "GER",
    "no": 10,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "405755",
-   "name": "Jaminton CAMPAZ",
-   "code": "COL",
-   "no": 21,
    "goals": 1,
    "ownGoals": 0
   }

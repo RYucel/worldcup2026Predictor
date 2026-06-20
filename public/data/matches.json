@@ -2179,15 +2179,15 @@
    "date": "2026-06-20T17:00:00Z",
    "venueId": "400249385",
    "status": "live",
-   "time": "53'",
+   "time": "67'",
    "home": {
     "code": "NED",
-    "score": 3,
+    "score": 4,
     "pen": null
    },
    "away": {
     "code": "SWE",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "F1",

@@ -288,7 +288,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Guus_Til",
-   "wcApps": 0,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -306,7 +306,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Juventus_FC",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Teun_Koopmeiners",
-   "wcApps": 1,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -397,7 +397,7 @@
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Cody_Gakpo",
    "wcApps": 2,
-   "wcGoals": 1,
+   "wcGoals": 2,
    "wcYellow": 0,
    "wcRed": 0
   },
