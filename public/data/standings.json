@@ -202,6 +202,18 @@
   ],
   "C": [
    {
+    "code": "BRA",
+    "p": 2,
+    "w": 1,
+    "d": 1,
+    "l": 0,
+    "gf": 4,
+    "ga": 1,
+    "gd": 3,
+    "pts": 4,
+    "rank": 1
+   },
+   {
     "code": "MAR",
     "p": 2,
     "w": 1,
@@ -211,7 +223,7 @@
     "ga": 1,
     "gd": 1,
     "pts": 4,
-    "rank": 1
+    "rank": 2
    },
    {
     "code": "SCO",
@@ -223,29 +235,17 @@
     "ga": 1,
     "gd": 0,
     "pts": 3,
-    "rank": 2
-   },
-   {
-    "code": "BRA",
-    "p": 1,
-    "w": 0,
-    "d": 1,
-    "l": 0,
-    "gf": 1,
-    "ga": 1,
-    "gd": 0,
-    "pts": 1,
     "rank": 3
    },
    {
     "code": "HAI",
-    "p": 1,
+    "p": 2,
     "w": 0,
     "d": 0,
-    "l": 1,
+    "l": 2,
     "gf": 0,
-    "ga": 1,
-    "gd": -1,
+    "ga": 4,
+    "gd": -4,
     "pts": 0,
     "rank": 4
    }
@@ -603,6 +603,21 @@
  },
  "thirds": [
   {
+   "group": "C",
+   "code": "SCO",
+   "p": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "gf": 1,
+   "ga": 1,
+   "gd": 0,
+   "pts": 3,
+   "rank": 3,
+   "thirdRank": 1,
+   "qualifies": null
+  },
+  {
    "group": "F",
    "code": "NED",
    "p": 1,
@@ -611,21 +626,6 @@
    "l": 0,
    "gf": 2,
    "ga": 2,
-   "gd": 0,
-   "pts": 1,
-   "rank": 3,
-   "thirdRank": 1,
-   "qualifies": null
-  },
-  {
-   "group": "C",
-   "code": "BRA",
-   "p": 1,
-   "w": 0,
-   "d": 1,
-   "l": 0,
-   "gf": 1,
-   "ga": 1,
    "gd": 0,
    "pts": 1,
    "rank": 3,
