@@ -33,6 +33,14 @@
    "ownGoals": 0
   },
   {
+   "id": "489518",
+   "name": "Crysencio SUMMERVILLE",
+   "code": "NED",
+   "no": 24,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "390670",
    "name": "Cyle LARIN",
    "code": "CAN",
@@ -221,14 +229,6 @@
    "name": "Connor METCALFE",
    "code": "AUS",
    "no": 8,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "489518",
-   "name": "Crysencio SUMMERVILLE",
-   "code": "NED",
-   "no": 24,
    "goals": 1,
    "ownGoals": 0
   },

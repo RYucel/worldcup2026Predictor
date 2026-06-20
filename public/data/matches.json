@@ -2179,10 +2179,10 @@
    "date": "2026-06-20T17:00:00Z",
    "venueId": "400249385",
    "status": "live",
-   "time": "80'",
+   "time": "90'+3'",
    "home": {
     "code": "NED",
-    "score": 4,
+    "score": 5,
     "pen": null
    },
    "away": {
@@ -2193,7 +2193,7 @@
    "phA": "F1",
    "phB": "F3",
    "winner": null,
-   "attendance": null,
+   "attendance": 68777,
    "officials": [
     {
      "id": "347710",
