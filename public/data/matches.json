@@ -1876,8 +1876,8 @@
    "group": "D",
    "date": "2026-06-20T03:00:00Z",
    "venueId": "400257521",
-   "status": "live",
-   "time": "75'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "TUR",
     "score": 0,
@@ -1890,7 +1890,7 @@
    },
    "phA": "D4",
    "phB": "D2",
-   "winner": null,
+   "winner": "PAR",
    "attendance": 68827,
    "officials": [
     {
@@ -3441,7 +3441,11 @@
    "venueId": "400257521",
    "status": "scheduled",
    "time": null,
-   "home": null,
+   "home": {
+    "code": "USA",
+    "score": null,
+    "pen": null
+   },
    "away": null,
    "phA": "1D",
    "phB": "3BEFIJ",
