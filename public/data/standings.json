@@ -352,19 +352,19 @@
   ],
   "H": [
    {
-    "code": "URU",
-    "p": 1,
-    "w": 0,
+    "code": "ESP",
+    "p": 2,
+    "w": 1,
     "d": 1,
     "l": 0,
-    "gf": 1,
-    "ga": 1,
-    "gd": 0,
-    "pts": 1,
+    "gf": 4,
+    "ga": 0,
+    "gd": 4,
+    "pts": 4,
     "rank": 1
    },
    {
-    "code": "KSA",
+    "code": "URU",
     "p": 1,
     "w": 0,
     "d": 1,
@@ -376,14 +376,14 @@
     "rank": 2
    },
    {
-    "code": "ESP",
-    "p": 1,
+    "code": "KSA",
+    "p": 2,
     "w": 0,
     "d": 1,
-    "l": 0,
-    "gf": 0,
-    "ga": 0,
-    "gd": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 5,
+    "gd": -4,
     "pts": 1,
     "rank": 3
    },
@@ -678,21 +678,6 @@
    "qualifies": null
   },
   {
-   "group": "H",
-   "code": "ESP",
-   "p": 1,
-   "w": 0,
-   "d": 1,
-   "l": 0,
-   "gf": 0,
-   "ga": 0,
-   "gd": 0,
-   "pts": 1,
-   "rank": 3,
-   "thirdRank": 6,
-   "qualifies": null
-  },
-  {
    "group": "A",
    "code": "CZE",
    "p": 2,
@@ -704,7 +689,7 @@
    "gd": -1,
    "pts": 1,
    "rank": 3,
-   "thirdRank": 7,
+   "thirdRank": 6,
    "qualifies": null
   },
   {
@@ -719,7 +704,7 @@
    "gd": -1,
    "pts": 1,
    "rank": 3,
-   "thirdRank": 8,
+   "thirdRank": 7,
    "qualifies": null
   },
   {
@@ -732,6 +717,21 @@
    "gf": 2,
    "ga": 5,
    "gd": -3,
+   "pts": 1,
+   "rank": 3,
+   "thirdRank": 8,
+   "qualifies": null
+  },
+  {
+   "group": "H",
+   "code": "KSA",
+   "p": 2,
+   "w": 0,
+   "d": 1,
+   "l": 1,
+   "gf": 1,
+   "ga": 5,
+   "gd": -4,
    "pts": 1,
    "rank": 3,
    "thirdRank": 9,
