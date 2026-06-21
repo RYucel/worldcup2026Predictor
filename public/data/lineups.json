@@ -17919,18 +17919,18 @@
      "y": null
     }
    ],
-   "goals": [
+   "goals": [],
+   "bookings": [
     {
-     "player": "388475",
-     "minute": "25'",
-     "type": 2,
+     "player": "371736",
+     "minute": "33'",
+     "card": 1,
      "period": 3
     }
    ],
-   "bookings": [],
    "substitutions": []
   },
-  "matchTime": "27'",
+  "matchTime": "40'",
   "period": 3,
   "final": false,
   "secTried": true
