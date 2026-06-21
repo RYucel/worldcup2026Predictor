@@ -12413,11 +12413,23 @@
      "minute": "39'",
      "card": 1,
      "period": 3
+    },
+    {
+     "player": "466317",
+     "minute": "53'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "494989",
+     "minute": "56'",
+     "card": 1,
+     "period": 5
     }
    ],
    "substitutions": []
   },
-  "matchTime": "48'",
+  "matchTime": "61'",
   "period": 5,
   "final": false,
   "secTried": true
