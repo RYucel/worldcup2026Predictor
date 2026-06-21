@@ -234,7 +234,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Al_Qadsiah_FC",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Mohammed_Abu_Al-Shamat",
-   "wcApps": 1,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -324,7 +324,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Neom_SC",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Alaa_Al-Hejji",
-   "wcApps": 1,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -344,7 +344,7 @@
    "wiki": "https://en.wikipedia.org/wiki/Mohamed_Kanno",
    "wcApps": 2,
    "wcGoals": 0,
-   "wcYellow": 0,
+   "wcYellow": 1,
    "wcRed": 0
   },
   {
