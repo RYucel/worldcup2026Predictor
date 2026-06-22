@@ -2473,8 +2473,8 @@
    "group": "G",
    "date": "2026-06-22T01:00:00Z",
    "venueId": "400248370",
-   "status": "live",
-   "time": "90'+5'",
+   "status": "finished",
+   "time": "101'",
    "home": {
     "code": "NZL",
     "score": 1,
@@ -2487,7 +2487,7 @@
    },
    "phA": "G4",
    "phB": "G2",
-   "winner": null,
+   "winner": "EGY",
    "attendance": 52497,
    "officials": [
     {
