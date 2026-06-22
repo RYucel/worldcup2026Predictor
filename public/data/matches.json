@@ -2625,7 +2625,7 @@
    "date": "2026-06-22T21:00:00Z",
    "venueId": "400248622",
    "status": "live",
-   "time": "45'+1'",
+   "time": null,
    "home": {
     "code": "FRA",
     "score": 1,
