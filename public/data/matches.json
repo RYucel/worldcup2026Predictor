@@ -2933,16 +2933,16 @@
    "group": "L",
    "date": "2026-06-23T20:00:00Z",
    "venueId": "400248623",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "13'",
    "home": {
     "code": "ENG",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "GHA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "L1",
