@@ -2934,7 +2934,7 @@
    "date": "2026-06-23T20:00:00Z",
    "venueId": "400248623",
    "status": "live",
-   "time": "58'",
+   "time": "71'",
    "home": {
     "code": "ENG",
     "score": 0,
@@ -2948,7 +2948,7 @@
    "phA": "L1",
    "phB": "L3",
    "winner": null,
-   "attendance": null,
+   "attendance": 63983,
    "officials": [
     {
      "id": "400191",
@@ -2993,7 +2993,7 @@
    "date": "2026-06-23T23:00:00Z",
    "venueId": "400242032",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAN",
     "score": null,
