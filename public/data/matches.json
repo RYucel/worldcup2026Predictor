@@ -3051,8 +3051,8 @@
    "group": "K",
    "date": "2026-06-23T17:00:00Z",
    "venueId": "400249385",
-   "status": "live",
-   "time": "90'+2'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "POR",
     "score": 5,
@@ -3065,7 +3065,7 @@
    },
    "phA": "K1",
    "phB": "K3",
-   "winner": null,
+   "winner": "POR",
    "attendance": 68777,
    "officials": [
     {
