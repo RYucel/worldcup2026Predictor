@@ -9,6 +9,14 @@
    "ownGoals": 0
   },
   {
+   "id": "419652",
+   "name": "Erling HAALAND",
+   "code": "NOR",
+   "no": 9,
+   "goals": 4,
+   "ownGoals": 0
+  },
+  {
    "id": "389867",
    "name": "Kylian MBAPPE",
    "code": "FRA",
@@ -21,14 +29,6 @@
    "name": "Deniz UNDAV",
    "code": "GER",
    "no": 26,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "419652",
-   "name": "Erling HAALAND",
-   "code": "NOR",
-   "no": 9,
    "goals": 3,
    "ownGoals": 0
   },

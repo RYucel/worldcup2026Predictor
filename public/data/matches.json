@@ -2566,10 +2566,10 @@
    "date": "2026-06-23T00:00:00Z",
    "venueId": "400257536",
    "status": "live",
-   "time": "55'",
+   "time": "68'",
    "home": {
     "code": "NOR",
-    "score": 2,
+    "score": 3,
     "pen": null
    },
    "away": {
@@ -2580,7 +2580,7 @@
    "phA": "I4",
    "phB": "I2",
    "winner": null,
-   "attendance": null,
+   "attendance": 80663,
    "officials": [
     {
      "id": "361561",
