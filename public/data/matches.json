@@ -3085,7 +3085,7 @@
    "date": "2026-06-23T17:00:00Z",
    "venueId": "400249385",
    "status": "live",
-   "time": "45'+1'",
+   "time": null,
    "home": {
     "code": "POR",
     "score": 3,
