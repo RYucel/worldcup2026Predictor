@@ -297,6 +297,14 @@
    "ownGoals": 0
   },
   {
+   "id": "201200",
+   "name": "CRISTIANO RONALDO",
+   "code": "POR",
+   "no": 7,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "431200",
    "name": "Daniel MUNOZ",
    "code": "COL",
@@ -311,18 +319,10 @@
    "no": 8,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "522846",
-   "name": "Ermin MAHMIC",
-   "code": "BIH",
-   "no": 26,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 106,
+  "yellow": 107,
   "red": 8,
   "players": [
    {
