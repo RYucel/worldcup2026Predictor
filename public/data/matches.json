@@ -3085,10 +3085,10 @@
    "date": "2026-06-23T17:00:00Z",
    "venueId": "400249385",
    "status": "live",
-   "time": "50'",
+   "time": "64'",
    "home": {
     "code": "POR",
-    "score": 3,
+    "score": 4,
     "pen": null
    },
    "away": {
@@ -3099,7 +3099,7 @@
    "phA": "K1",
    "phB": "K3",
    "winner": null,
-   "attendance": null,
+   "attendance": 68777,
    "officials": [
     {
      "id": "416524",
