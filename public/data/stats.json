@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 113,
+  "yellow": 115,
   "red": 8,
   "players": [
    {
@@ -486,7 +486,7 @@
    }
   ]
  },
- "attAvg": 64400,
+ "attAvg": 64003,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -550,9 +550,9 @@
    "ENG": -1,
    "CRO": -1,
    "POR": -4,
-   "COD": -1,
+   "COD": -2,
    "UZB": -2,
-   "COL": -1
+   "COL": -3
   },
   "all": {
    "MEX": -5,
@@ -600,9 +600,9 @@
    "ENG": -1,
    "CRO": -1,
    "POR": -4,
-   "COD": -1,
+   "COD": -2,
    "UZB": -2,
-   "COL": -1
+   "COL": -3
   }
  },
  "suspensions": {

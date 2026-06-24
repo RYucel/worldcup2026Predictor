@@ -27958,6 +27958,12 @@
      "minute": "56'",
      "card": 1,
      "period": 5
+    },
+    {
+     "player": "395550",
+     "minute": "90'+4'",
+     "card": 1,
+     "period": 5
     }
    ],
    "substitutions": [
@@ -28274,7 +28280,14 @@
     }
    ],
    "goals": [],
-   "bookings": [],
+   "bookings": [
+    {
+     "player": "448128",
+     "minute": "90'+3'",
+     "card": 1,
+     "period": 5
+    }
+   ],
    "substitutions": [
     {
      "off": "494458",
@@ -28308,9 +28321,9 @@
     }
    ]
   },
-  "matchTime": "90'+1'",
-  "period": 5,
-  "final": false,
+  "matchTime": "97'",
+  "period": 10,
+  "final": true,
   "secTried": true
  },
  "400021502": {

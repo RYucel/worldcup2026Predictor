@@ -3110,8 +3110,8 @@
    "group": "K",
    "date": "2026-06-24T02:00:00Z",
    "venueId": "400252150",
-   "status": "live",
-   "time": "90'+1'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "COL",
     "score": 1,
@@ -3124,7 +3124,7 @@
    },
    "phA": "K4",
    "phB": "K2",
-   "winner": null,
+   "winner": "COL",
    "attendance": 45358,
    "officials": [
     {
