@@ -3203,7 +3203,7 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SCO",
     "score": null,
@@ -3251,39 +3251,6 @@
       "id": "Wasit",
       "ru": "Главный судья"
      }
-    },
-    {
-     "id": "400227",
-     "country": "NOR",
-     "role": "fourth",
-     "name": {
-      "en": "Espen ESKAS",
-      "fr": "Espen ESKAS",
-      "zh": "Espen ESKAS",
-      "ar": "Espen ESKAS",
-      "es": "Espen ESKAS",
-      "de": "Espen ESKAS",
-      "pt": "Espen ESKAS",
-      "it": "Espen ESKAS",
-      "ja": "Espen ESKAS",
-      "ko": "Espen ESKAS",
-      "id": "Espen ESKAS",
-      "ru": "Espen ESKAS"
-     },
-     "typeName": {
-      "en": "Fourth official",
-      "fr": "Quatrième arbitre",
-      "zh": "第四官员",
-      "ar": "الحَكَم الرابع",
-      "es": "Cuarto/a árbitro/a",
-      "de": "Vierter Offizieller",
-      "pt": "Quarto árbitro",
-      "it": "Quarto arbitro",
-      "ja": "第 4 審判員",
-      "ko": "대기심",
-      "id": "Ofisial keempat",
-      "ru": "Четвертый судья"
-     }
     }
    ]
   },
@@ -3295,7 +3262,7 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "MAR",
     "score": null,
@@ -3343,39 +3310,6 @@
       "id": "Wasit",
       "ru": "Главный судья"
      }
-    },
-    {
-     "id": "392268",
-     "country": "POR",
-     "role": "fourth",
-     "name": {
-      "en": "Joao PINHEIRO",
-      "fr": "Joao PINHEIRO",
-      "zh": "Joao PINHEIRO",
-      "ar": "Joao PINHEIRO",
-      "es": "Joao PINHEIRO",
-      "de": "Joao PINHEIRO",
-      "pt": "Joao PINHEIRO",
-      "it": "Joao PINHEIRO",
-      "ja": "Joao PINHEIRO",
-      "ko": "Joao PINHEIRO",
-      "id": "Joao PINHEIRO",
-      "ru": "Joao PINHEIRO"
-     },
-     "typeName": {
-      "en": "Fourth official",
-      "fr": "Quatrième arbitre",
-      "zh": "第四官员",
-      "ar": "الحَكَم الرابع",
-      "es": "Cuarto/a árbitro/a",
-      "de": "Vierter Offizieller",
-      "pt": "Quarto árbitro",
-      "it": "Quarto arbitro",
-      "ja": "第 4 審判員",
-      "ko": "대기심",
-      "id": "Ofisial keempat",
-      "ru": "Четвертый судья"
-     }
     }
    ]
   },
@@ -3387,7 +3321,7 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400248370",
    "status": "live",
-   "time": "67'",
+   "time": "81'",
    "home": {
     "code": "SUI",
     "score": 2,
@@ -3395,7 +3329,7 @@
    },
    "away": {
     "code": "CAN",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "B4",
@@ -3446,7 +3380,7 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400216606",
    "status": "live",
-   "time": "63'",
+   "time": "78'",
    "home": {
     "code": "BIH",
     "score": 2,
