@@ -8356,6 +8356,13 @@
      "type": 2,
      "period": 3,
      "sec": 2703
+    },
+    {
+     "player": "433426",
+     "minute": "78'",
+     "type": 2,
+     "period": 5,
+     "sec": 1944
     }
    ],
    "bookings": [],
@@ -8376,6 +8383,18 @@
      "off": "430740",
      "on": "441307",
      "minute": "70'",
+     "period": 5
+    },
+    {
+     "off": "485740",
+     "on": "505097",
+     "minute": "83'",
+     "period": 5
+    },
+    {
+     "off": "424071",
+     "on": "411680",
+     "minute": "83'",
      "period": 5
     }
    ]
@@ -8688,7 +8707,20 @@
      "sec": 2532
     }
    ],
-   "bookings": [],
+   "bookings": [
+    {
+     "player": "295922",
+     "minute": "79'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "394993",
+     "minute": "79'",
+     "card": 1,
+     "period": 5
+    }
+   ],
    "substitutions": [
     {
      "off": "485664",
@@ -8701,10 +8733,28 @@
      "on": "481027",
      "minute": "67'",
      "period": 5
+    },
+    {
+     "off": "431781",
+     "on": "397775",
+     "minute": "80'",
+     "period": 5
+    },
+    {
+     "off": "466838",
+     "on": "523215",
+     "minute": "80'",
+     "period": 5
+    },
+    {
+     "off": "485676",
+     "on": "431693",
+     "minute": "83'",
+     "period": 5
     }
    ]
   },
-  "matchTime": "72'",
+  "matchTime": "85'",
   "period": 5,
   "final": false,
   "secTried": true
@@ -10368,6 +10418,18 @@
      "on": "401712",
      "minute": "",
      "period": 4
+    },
+    {
+     "off": "433694",
+     "on": "337389",
+     "minute": "81'",
+     "period": 5
+    },
+    {
+     "off": "485131",
+     "on": "430097",
+     "minute": "81'",
+     "period": 5
     }
    ]
   },
@@ -10681,6 +10743,12 @@
      "minute": "62'",
      "card": 1,
      "period": 5
+    },
+    {
+     "player": "394456",
+     "minute": "82'",
+     "card": 1,
+     "period": 5
     }
    ],
    "substitutions": [
@@ -10695,10 +10763,28 @@
      "on": "430597",
      "minute": "66'",
      "period": 5
+    },
+    {
+     "off": "430609",
+     "on": "314197",
+     "minute": "76'",
+     "period": 5
+    },
+    {
+     "off": "475036",
+     "on": "463746",
+     "minute": "82'",
+     "period": 5
+    },
+    {
+     "off": "367981",
+     "on": "335658",
+     "minute": "82'",
+     "period": 5
     }
    ]
   },
-  "matchTime": "68'",
+  "matchTime": "83'",
   "period": 5,
   "final": false,
   "secTried": true

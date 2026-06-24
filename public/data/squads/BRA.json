@@ -108,7 +108,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/CR_Flamengo",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Alex_Sandro",
-   "wcApps": 0,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -272,7 +272,7 @@
    "wiki": "https://en.wikipedia.org/wiki/Fabinho_(footballer%2C_born_1993)",
    "wcApps": 2,
    "wcGoals": 0,
-   "wcYellow": 0,
+   "wcYellow": 1,
    "wcRed": 0
   },
   {
@@ -360,7 +360,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Santos_FC",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Neymar",
-   "wcApps": 0,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -396,7 +396,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Olympique_Lyonnais",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Endrick_(footballer%2C_born_2006)",
-   "wcApps": 1,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
