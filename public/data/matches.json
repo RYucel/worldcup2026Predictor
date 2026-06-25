@@ -3773,16 +3773,16 @@
    "group": "F",
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400257526",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "45'+3'",
    "home": {
     "code": "JPN",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "SWE",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "F2",
@@ -3832,16 +3832,16 @@
    "group": "F",
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400254717",
-   "status": "scheduled",
+   "status": "live",
    "time": null,
    "home": {
     "code": "TUN",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "NED",
-    "score": null,
+    "score": 2,
     "pen": null
    },
    "phA": "F4",
