@@ -3656,7 +3656,7 @@
    "date": "2026-06-25T20:00:00Z",
    "venueId": "400248622",
    "status": "live",
-   "time": "65'",
+   "time": "79'",
    "home": {
     "code": "CUW",
     "score": 0,
@@ -3715,10 +3715,10 @@
    "date": "2026-06-25T20:00:00Z",
    "venueId": "400257536",
    "status": "live",
-   "time": "65'",
+   "time": "79'",
    "home": {
     "code": "ECU",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {
@@ -3729,7 +3729,7 @@
    "phA": "E4",
    "phB": "E1",
    "winner": null,
-   "attendance": null,
+   "attendance": 80663,
    "officials": [
     {
      "id": "428431",
@@ -3774,7 +3774,7 @@
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "JPN",
     "score": null,
@@ -3822,39 +3822,6 @@
       "id": "Wasit",
       "ru": "Главный судья"
      }
-    },
-    {
-     "id": "408591",
-     "country": "MTN",
-     "role": "fourth",
-     "name": {
-      "en": "Dahane BEIDA",
-      "fr": "Dahane BEIDA",
-      "zh": "Dahane BEIDA",
-      "ar": "Dahane BEIDA",
-      "es": "Dahane BEIDA",
-      "de": "Dahane BEIDA",
-      "pt": "Dahane BEIDA",
-      "it": "Dahane BEIDA",
-      "ja": "Dahane BEIDA",
-      "ko": "Dahane BEIDA",
-      "id": "Dahane BEIDA",
-      "ru": "Dahane BEIDA"
-     },
-     "typeName": {
-      "en": "Fourth official",
-      "fr": "Quatrième arbitre",
-      "zh": "第四官员",
-      "ar": "الحَكَم الرابع",
-      "es": "Cuarto/a árbitro/a",
-      "de": "Vierter Offizieller",
-      "pt": "Quarto árbitro",
-      "it": "Quarto arbitro",
-      "ja": "第 4 審判員",
-      "ko": "대기심",
-      "id": "Ofisial keempat",
-      "ru": "Четвертый судья"
-     }
     }
    ]
   },
@@ -3866,7 +3833,7 @@
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "TUN",
     "score": null,
@@ -3913,39 +3880,6 @@
       "ko": "주심",
       "id": "Wasit",
       "ru": "Главный судья"
-     }
-    },
-    {
-     "id": "416159",
-     "country": "PAR",
-     "role": "fourth",
-     "name": {
-      "en": "Juan Gabriel BENITEZ",
-      "fr": "Juan Gabriel BENITEZ",
-      "zh": "Juan Gabriel BENITEZ",
-      "ar": "Juan Gabriel BENITEZ",
-      "es": "Juan Gabriel BENITEZ",
-      "de": "Juan Gabriel BENITEZ",
-      "pt": "Juan Gabriel BENITEZ",
-      "it": "Juan Gabriel BENITEZ",
-      "ja": "Juan Gabriel BENITEZ",
-      "ko": "Juan Gabriel BENITEZ",
-      "id": "Juan Gabriel BENITEZ",
-      "ru": "Juan Gabriel BENITEZ"
-     },
-     "typeName": {
-      "en": "Fourth official",
-      "fr": "Quatrième arbitre",
-      "zh": "第四官员",
-      "ar": "الحَكَم الرابع",
-      "es": "Cuarto/a árbitro/a",
-      "de": "Vierter Offizieller",
-      "pt": "Quarto árbitro",
-      "it": "Quarto arbitro",
-      "ja": "第 4 審判員",
-      "ko": "대기심",
-      "id": "Ofisial keempat",
-      "ru": "Четвертый судья"
      }
     }
    ]

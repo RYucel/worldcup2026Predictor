@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 133,
+  "yellow": 134,
   "red": 8,
   "players": [
    {
@@ -405,6 +405,14 @@
     "r": 0
    },
    {
+    "id": "466317",
+    "name": "Juninho BACUNA",
+    "code": "CUW",
+    "no": 7,
+    "y": 2,
+    "r": 0
+   },
+   {
     "id": "477832",
     "name": "SIDNY LOPES CABRAL",
     "code": "CPV",
@@ -473,14 +481,6 @@
     "name": "Alessandro CIRCATI",
     "code": "AUS",
     "no": 3,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "485802",
-    "name": "Alex ARCE",
-    "code": "PAR",
-    "no": 18,
     "y": 1,
     "r": 0
    }
