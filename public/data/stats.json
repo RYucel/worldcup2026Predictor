@@ -177,6 +177,14 @@
    "ownGoals": 0
   },
   {
+   "id": "429157",
+   "name": "Julian QUINONES",
+   "code": "MEX",
+   "no": 16,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "411367",
    "name": "Kai HAVERTZ",
    "code": "GER",
@@ -273,6 +281,14 @@
    "ownGoals": 0
   },
   {
+   "id": "416576",
+   "name": "Alvaro FIDALGO",
+   "code": "MEX",
+   "no": 8,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "430822",
    "name": "Amad DIALLO",
    "code": "CIV",
@@ -303,26 +319,10 @@
    "no": 11,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "395186",
-   "name": "AYMEN HUSSEIN",
-   "code": "IRQ",
-   "no": 18,
-   "goals": 1,
-   "ownGoals": 1
-  },
-  {
-   "id": "484860",
-   "name": "Bradley BARCOLA",
-   "code": "FRA",
-   "no": 12,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 126,
+  "yellow": 129,
   "red": 8,
   "players": [
    {
@@ -486,7 +486,7 @@
    }
   ]
  },
- "attAvg": 63929,
+ "attAvg": 64007,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -505,9 +505,9 @@
  },
  "fairPlay": {
   "group": {
-   "MEX": -5,
-   "RSA": -12,
-   "KOR": -3,
+   "MEX": -6,
+   "RSA": -13,
+   "KOR": -4,
    "CZE": -1,
    "CAN": -5,
    "BIH": -10,
@@ -555,9 +555,9 @@
    "COL": -3
   },
   "all": {
-   "MEX": -5,
-   "RSA": -12,
-   "KOR": -3,
+   "MEX": -6,
+   "RSA": -13,
+   "KOR": -4,
    "CZE": -1,
    "CAN": -5,
    "BIH": -10,
@@ -606,22 +606,6 @@
   }
  },
  "suspensions": {
-  "RSA": [
-   {
-    "id": "403616",
-    "name": "Teboho MOKOENA",
-    "bans": [
-     {
-      "type": "yellows",
-      "due": [
-       "400021443",
-       "400021440"
-      ],
-      "banned": "400021445"
-     }
-    ]
-   }
-  ],
   "PAR": [
    {
     "id": "369761",

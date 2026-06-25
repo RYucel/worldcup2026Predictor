@@ -272,7 +272,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Luk%C3%A1%C5%A1_Provod",
-    "wcApps": 2,
+    "wcApps": 3,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -308,7 +308,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Sou%C4%8Dek",
-    "wcApps": 2,
+    "wcApps": 3,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -326,7 +326,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Alexandr_Sojka",
-    "wcApps": 2,
+    "wcApps": 3,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -380,7 +380,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Patrik_Schick",
-    "wcApps": 2,
+    "wcApps": 3,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -452,7 +452,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Chor%C3%BD",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -534,7 +534,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/AEL_Limassol",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Guillermo_Ochoa",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -590,7 +590,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Edson_%C3%81lvarez",
     "wcApps": 3,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -643,7 +643,7 @@
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Mateo_Ch%C3%A1vez",
     "wcApps": 1,
-    "wcGoals": 0,
+    "wcGoals": 1,
     "wcYellow": 0,
     "wcRed": 0
    },
@@ -660,7 +660,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Toluca_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Gallardo",
-    "wcApps": 2,
+    "wcApps": 3,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -714,8 +714,8 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Real_Betis",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/%C3%81lvaro_Fidalgo",
-    "wcApps": 1,
-    "wcGoals": 0,
+    "wcApps": 2,
+    "wcGoals": 1,
     "wcYellow": 0,
     "wcRed": 0
    },
@@ -750,7 +750,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Obed_Vargas",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -858,7 +858,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/AC_Milan",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Santiago_Gim%C3%A9nez",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -895,7 +895,7 @@
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Juli%C3%A1n_Qui%C3%B1ones",
     "wcApps": 3,
-    "wcGoals": 1,
+    "wcGoals": 2,
     "wcYellow": 0,
     "wcRed": 0
    },
@@ -1068,7 +1068,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Aubrey_Modiba",
     "wcApps": 3,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -1282,7 +1282,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Mamelodi_Sundowns_F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Jayden_Adams",
-    "wcApps": 2,
+    "wcApps": 3,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -1318,7 +1318,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Orlando_Pirates_F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Tshepang_Moremi",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -1373,7 +1373,7 @@
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Thapelo_Maseko",
     "wcApps": 2,
-    "wcGoals": 0,
+    "wcGoals": 1,
     "wcYellow": 0,
     "wcRed": 0
    },
@@ -1390,7 +1390,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Mamelodi_Sundowns_F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Iqraam_Rayners",
-    "wcApps": 2,
+    "wcApps": 3,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -1616,7 +1616,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Zhejiang_Professional_F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Park_Jin-seob_(footballer%2C_born_1995)",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -1652,7 +1652,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Jens_Castrop",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -1814,7 +1814,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Jeonbuk_Hyundai_Motors",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Kim_Jin-gyu_(footballer%2C_born_1997)",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -1868,7 +1868,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Son_Heung-min",
-    "wcApps": 2,
+    "wcApps": 3,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -1886,9 +1886,9 @@
     "clubWiki": "https://en.wikipedia.org/wiki/FC_Midtjylland",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Cho_Gue-sung",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
