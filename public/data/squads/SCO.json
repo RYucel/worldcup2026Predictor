@@ -308,7 +308,7 @@
    "wiki": "https://en.wikipedia.org/wiki/Ryan_Christie",
    "wcApps": 3,
    "wcGoals": 0,
-   "wcYellow": 0,
+   "wcYellow": 1,
    "wcRed": 0
   },
   {
@@ -378,7 +378,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Torino_FC",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Ch%C3%A9_Adams",
-   "wcApps": 2,
+   "wcApps": 3,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -468,7 +468,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Kilmarnock_F.C.",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Findlay_Curtis",
-   "wcApps": 1,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 1,
    "wcRed": 0
