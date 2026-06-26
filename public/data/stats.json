@@ -225,6 +225,14 @@
    "ownGoals": 0
   },
   {
+   "id": "398680",
+   "name": "Ousmane DEMBELE",
+   "code": "FRA",
+   "no": 7,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "448131",
    "name": "Ruben VARGAS",
    "code": "SUI",
@@ -311,19 +319,11 @@
    "no": 15,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "405877",
-   "name": "Amine GOUIRI",
-   "code": "ALG",
-   "no": 9,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 142,
-  "red": 8,
+  "yellow": 143,
+  "red": 9,
   "players": [
    {
     "id": "369761",
@@ -362,6 +362,14 @@
     "name": "Nathan NGOY",
     "code": "BEL",
     "no": 25,
+    "y": 0,
+    "r": 1
+   },
+   {
+    "id": "396158",
+    "name": "REBIN SULAKA",
+    "code": "IRQ",
+    "no": 2,
     "y": 0,
     "r": 1
    },
@@ -473,14 +481,6 @@
     "name": "AHMED FATOUH",
     "code": "EGY",
     "no": 13,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "389784",
-    "name": "Alan FRANCO",
-    "code": "ECU",
-    "no": 21,
     "y": 1,
     "r": 0
    }
