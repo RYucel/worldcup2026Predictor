@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 138,
+  "yellow": 139,
   "red": 8,
   "players": [
    {
@@ -486,7 +486,7 @@
    }
   ]
  },
- "attAvg": 64381,
+ "attAvg": 64452,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",

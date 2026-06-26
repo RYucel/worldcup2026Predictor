@@ -3774,7 +3774,7 @@
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400257526",
    "status": "live",
-   "time": "83'",
+   "time": "90'+7'",
    "home": {
     "code": "JPN",
     "score": 1,
@@ -3832,8 +3832,8 @@
    "group": "F",
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400254717",
-   "status": "live",
-   "time": "84'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "TUN",
     "score": 1,
@@ -3846,7 +3846,7 @@
    },
    "phA": "F4",
    "phB": "F1",
-   "winner": null,
+   "winner": "NED",
    "attendance": 68391,
    "officials": [
     {
@@ -3892,7 +3892,7 @@
    "date": "2026-06-26T02:00:00Z",
    "venueId": "400017978",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "TUR",
     "score": null,
@@ -3951,7 +3951,7 @@
    "date": "2026-06-26T02:00:00Z",
    "venueId": "400257521",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "PAR",
     "score": null,
