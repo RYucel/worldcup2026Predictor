@@ -13390,11 +13390,11 @@
      "sec": 587
     },
     {
-     "player": "433118",
+     "player": "484139",
      "minute": "31'",
      "type": 2,
      "period": 3,
-     "sec": 1830
+     "sec": 1831
     }
    ],
    "bookings": [],
@@ -13714,7 +13714,7 @@
     }
    ]
   },
-  "matchTime": "62'",
+  "matchTime": "75'",
   "period": 5,
   "final": false,
   "secTried": true
@@ -14709,6 +14709,12 @@
      "on": "495046",
      "minute": "",
      "period": 4
+    },
+    {
+     "off": "463127",
+     "on": "485802",
+     "minute": "67'",
+     "period": 5
     }
    ]
   },
@@ -15000,7 +15006,7 @@
     }
    ]
   },
-  "matchTime": "61'",
+  "matchTime": "75'",
   "period": 5,
   "final": false,
   "secTried": true
