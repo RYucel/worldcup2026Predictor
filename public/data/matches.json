@@ -4311,8 +4311,8 @@
    "group": "H",
    "date": "2026-06-27T00:00:00Z",
    "venueId": "400249385",
-   "status": "live",
-   "time": "83'",
+   "status": "finished",
+   "time": "90'",
    "home": {
     "code": "CPV",
     "score": 0,
@@ -4371,7 +4371,7 @@
    "date": "2026-06-27T00:00:00Z",
    "venueId": "400252150",
    "status": "live",
-   "time": "83'",
+   "time": "90'+6'",
    "home": {
     "code": "URU",
     "score": 0,
