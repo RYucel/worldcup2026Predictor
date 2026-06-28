@@ -113,6 +113,14 @@
    "ownGoals": 0
   },
   {
+   "id": "441316",
+   "name": "Yoane WISSA",
+   "code": "COD",
+   "no": 20,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "441137",
    "name": "Anthony ELANGA",
    "code": "SWE",
@@ -281,14 +289,6 @@
    "ownGoals": 0
   },
   {
-   "id": "441316",
-   "name": "Yoane WISSA",
-   "code": "COD",
-   "no": 20,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
    "id": "464933",
    "name": "Abbosbek FAYZULLAEV",
    "code": "UZB",
@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 175,
+  "yellow": 176,
   "red": 10,
   "players": [
    {
