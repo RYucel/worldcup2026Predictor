@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 195,
+  "yellow": 196,
   "red": 10,
   "players": [
    {
@@ -462,6 +462,14 @@
     "r": 0
    },
    {
+    "id": "403083",
+    "name": "Issa DIOP",
+    "code": "MAR",
+    "no": 14,
+    "y": 2,
+    "r": 0
+   },
+   {
     "id": "466317",
     "name": "Juninho BACUNA",
     "code": "CUW",
@@ -474,14 +482,6 @@
     "name": "Matias GALARZA",
     "code": "PAR",
     "no": 23,
-    "y": 2,
-    "r": 0
-   },
-   {
-    "id": "433469",
-    "name": "MOHANAD LASHIN",
-    "code": "EGY",
-    "no": 17,
     "y": 2,
     "r": 0
    }

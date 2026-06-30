@@ -52307,11 +52307,18 @@
     }
    ],
    "goals": [],
-   "bookings": [],
+   "bookings": [
+    {
+     "player": "403083",
+     "minute": "47'",
+     "card": 1,
+     "period": 5
+    }
+   ],
    "substitutions": []
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "55'",
+  "period": 5,
   "final": false,
   "secTried": true
  }
