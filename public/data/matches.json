@@ -5137,12 +5137,12 @@
    "home": {
     "code": "NED",
     "score": 1,
-    "pen": null
+    "pen": 2
    },
    "away": {
     "code": "MAR",
     "score": 1,
-    "pen": null
+    "pen": 2
    },
    "phA": "1F",
    "phB": "2C",
