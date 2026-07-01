@@ -20,14 +20,15 @@ import './settings.css'
 
 /** meta.counts keys -> existing i18n keys (raw key shown as-is when unmapped) */
 const COUNT_LABEL_KEY: Record<string, string> = {
-  matches: 'navMatches',
-  teams: 'navTeams',
-  squads: 'squad',
-  weather: 'weatherTitle',
-  lineups: 'lineups',
-  venues: 'navVenues',
-  broadcasters: 'whereToWatch',
-  stats: 'navStats',
+  matches: 'countMatches',
+  teams: 'countTeams',
+  squads: 'countSquads',
+  weather: 'countWeather',
+  lineups: 'countLineups',
+  venues: 'countVenues',
+  broadcasters: 'countBroadcasters',
+  stats: 'countStats',
+  flags: 'countFlags',
 }
 
 export default function Settings() {

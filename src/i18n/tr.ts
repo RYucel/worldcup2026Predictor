@@ -366,9 +366,24 @@ const tr: Dict = {
     'Turnuva tahmini sayfasıyla aynı Elo puanlama modelini kullanır. Yalnızca eğlence amaçlıdır, resmi bir tahmin değildir.',
   aimsTryMatch: 'Bu eşleşmeyi simüle et',
   aimsHome: 'Ev sahibi avantajı',
-  aimsNeutral: 'Nötr',
+  aimsNeutral: 'Tarafsız',
   aimsGoal: 'GOOOL!',
   aimsKnockout: 'Eleme maçı (uzatma + penaltı)',
+  // Singular / plural overrides
+  'selectedNTeams#one': '{n} takım seçildi',
+  'filterTeamsSel#one': '{n} Takım',
+  'matchesShown#one': '{n} maç',
+  'ageN#one': '{n} yaş',
+  // Settings count labels
+  countMatches: 'maç',
+  countTeams: 'takım',
+  countSquads: 'kadro',
+  countWeather: 'hava durumu tahmini',
+  countLineups: 'ilk 11',
+  countVenues: 'stadyum',
+  countBroadcasters: 'yayıncı',
+  countStats: 'istatistik',
+  countFlags: 'bayrak',
 }
 
 export default tr

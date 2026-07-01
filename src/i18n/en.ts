@@ -379,6 +379,16 @@ const en: Dict = {
     'Powered by the same Elo rating model used in the tournament Forecast page. For entertainment only. Not an official prediction.',
   aimsGoal: 'GOOOAL!',
   aimsKnockout: 'Knockout (extra time + penalties)',
+  // Settings count labels
+  countMatches: 'matches',
+  countTeams: 'teams',
+  countSquads: 'squad lists',
+  countWeather: 'weather forecasts',
+  countLineups: 'lineups',
+  countVenues: 'stadiums',
+  countBroadcasters: 'broadcasters',
+  countStats: 'stats',
+  countFlags: 'flags',
 }
 
 export default en

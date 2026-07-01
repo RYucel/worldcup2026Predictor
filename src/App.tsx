@@ -1,8 +1,9 @@
-import { Suspense, lazy, useEffect } from 'react'
+import { Suspense, lazy, useEffect, useState } from 'react'
 import { Route, Routes, useLocation, useNavigationType } from 'react-router-dom'
 import { useData } from './data/DataContext'
 import { useI18n } from './i18n'
 import Layout from './components/Layout'
+import SplashLoader from './components/SplashLoader'
 
 // route-level code splitting: each page loads on demand (Venues also pulls the 42 KB map JSON)
 const Matches = lazy(() => import('./pages/Matches'))
@@ -71,6 +72,23 @@ export default function App() {
   const { data, error } = useData()
   const { t } = useI18n()
 
+  const [minTimePassed, setMinTimePassed] = useState(false)
+  const [showSplash, setShowSplash] = useState(true)
+  const [isFading, setIsFading] = useState(false)
+
+  useEffect(() => {
+    const timer = setTimeout(() => setMinTimePassed(true), 2500)
+    return () => clearTimeout(timer)
+  }, [])
+
+  useEffect(() => {
+    if (data && minTimePassed) {
+      setIsFading(true)
+      const timer = setTimeout(() => setShowSplash(false), 500)
+      return () => clearTimeout(timer)
+    }
+  }, [data, minTimePassed])
+
   if (error) {
     return (
       <div className="splash">
@@ -80,39 +98,34 @@ export default function App() {
       </div>
     )
   }
-  if (!data) {
-    return (
-      <div className="splash">
-        <div className="ball">⚽</div>
-        <p>{t('loading')}</p>
-      </div>
-    )
-  }
 
   return (
     <>
       <ScrollToTop />
       <TitleManager />
-      <Suspense fallback={<div className="page-loading" />}>
-        <Routes>
-          <Route element={<Layout />}>
-            <Route index element={<Matches />} />
-            <Route path="/match/:id" element={<MatchDetail />} />
-            <Route path="/groups" element={<Groups />} />
-            <Route path="/bracket" element={<Bracket />} />
-            <Route path="/teams" element={<Teams />} />
-            <Route path="/team/:code" element={<TeamDetail />} />
-            <Route path="/venues" element={<Venues />} />
-            <Route path="/watch" element={<Watch />} />
-            <Route path="/stats" element={<Stats />} />
-            <Route path="/forecast" element={<Forecast />} />
-            <Route path="/match-simulator" element={<MatchSimulator />} />
-            <Route path="/settings" element={<Settings />} />
-            <Route path="/more" element={<More />} />
-            <Route path="*" element={<Matches />} />
-          </Route>
-        </Routes>
-      </Suspense>
+      {showSplash && <SplashLoader isFading={isFading} />}
+      {data && (
+        <Suspense fallback={<div className="page-loading" />}>
+          <Routes>
+            <Route element={<Layout />}>
+              <Route index element={<Matches />} />
+              <Route path="/match/:id" element={<MatchDetail />} />
+              <Route path="/groups" element={<Groups />} />
+              <Route path="/bracket" element={<Bracket />} />
+              <Route path="/teams" element={<Teams />} />
+              <Route path="/team/:code" element={<TeamDetail />} />
+              <Route path="/venues" element={<Venues />} />
+              <Route path="/watch" element={<Watch />} />
+              <Route path="/stats" element={<Stats />} />
+              <Route path="/forecast" element={<Forecast />} />
+              <Route path="/match-simulator" element={<MatchSimulator />} />
+              <Route path="/settings" element={<Settings />} />
+              <Route path="/more" element={<More />} />
+              <Route path="*" element={<Matches />} />
+            </Route>
+          </Routes>
+        </Suspense>
+      )}
     </>
   )
 }

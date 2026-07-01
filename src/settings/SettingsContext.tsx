@@ -44,7 +44,7 @@ function detectLang(): Lang {
       if (low.startsWith(prefix)) return lang
     }
   }
-  return 'en'
+  return 'tr'
 }
 
 function defaults(): Settings {
@@ -61,7 +61,7 @@ function defaults(): Settings {
     // host-country anchor: most matches and the final are on US Eastern time
     fixedTz: 'America/New_York',
     favorites: [],
-    theme: 'auto',
+    theme: 'dark',
     market: legacyMarket,
     units: detectCountry() === 'US' ? 'imperial' : 'metric',
   }
