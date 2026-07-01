@@ -2,8 +2,7 @@ import { useMemo, useState } from 'react'
 import { useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { useAppData } from '../data/DataContext'
-import { LANG_LABEL } from '../i18n/strings'
-import type { Lang, MatchSide, Team, Theme, TzMode, Units } from '../types'
+import type { MatchSide, Team, Theme, TzMode } from '../types'
 import { allTimezones, fmtDateTime } from '../utils/time'
 import {
   buildIcs,
@@ -33,18 +32,8 @@ const COUNT_LABEL_KEY: Record<string, string> = {
 
 export default function Settings() {
   const { t, pick, locale, countryName } = useI18n()
-  const {
-    settings,
-    setLang,
-    setTzMode,
-    setFixedTz,
-    toggleFavorite,
-    setFavorites,
-    setTheme,
-    setMarket,
-    setUnits,
-    reset,
-  } = useSettings()
+  const { settings, setTzMode, setFixedTz, toggleFavorite, setFavorites, setTheme, setMarket, reset } =
+    useSettings()
   const { matches, teams, venues, meta, broadcasters } = useAppData()
 
   const markets = useMemo(() => {
@@ -149,23 +138,6 @@ export default function Settings() {
       </div>
 
       <div className="se-stack">
-        {/* language */}
-        <section className="card card-pad se-card">
-          <h2>{t('settingLang')}</h2>
-          <div className="seg">
-            {(Object.keys(LANG_LABEL) as Lang[]).map((l) => (
-              <button
-                key={l}
-                type="button"
-                className={settings.lang === l ? 'on' : ''}
-                onClick={() => setLang(l)}
-              >
-                {LANG_LABEL[l]}
-              </button>
-            ))}
-          </div>
-        </section>
-
         {/* time zone */}
         <section className="card card-pad se-card">
           <h2>{t('settingTz')}</h2>
@@ -294,23 +266,6 @@ export default function Settings() {
                 onClick={() => setTheme(th)}
               >
                 {t(th === 'auto' ? 'themeAuto' : th === 'light' ? 'themeLight' : 'themeDark')}
-              </button>
-            ))}
-          </div>
-        </section>
-
-        {/* units */}
-        <section className="card card-pad se-card">
-          <h2>{t('settingUnits')}</h2>
-          <div className="seg">
-            {(['metric', 'imperial'] as Units[]).map((u) => (
-              <button
-                key={u}
-                type="button"
-                className={settings.units === u ? 'on' : ''}
-                onClick={() => setUnits(u)}
-              >
-                {t(u === 'metric' ? 'unitsMetric' : 'unitsImperial')}
               </button>
             ))}
           </div>

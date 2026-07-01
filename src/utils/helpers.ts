@@ -385,12 +385,12 @@ export function detectCountry(): string | null {
   return null
 }
 
-export function fmtTemp(celsius: number, units: 'metric' | 'imperial'): string {
-  return units === 'imperial' ? `${Math.round((celsius * 9) / 5 + 32)}°F` : `${Math.round(celsius)}°C`
+export function fmtTemp(celsius: number, _units: 'metric' | 'imperial'): string {
+  return `${Math.round(celsius)}°C`
 }
 
-export function fmtSpeed(kmh: number, units: 'metric' | 'imperial'): string {
-  return units === 'imperial' ? `${Math.round(kmh * 0.621371)} mph` : `${Math.round(kmh)} km/h`
+export function fmtSpeed(kmh: number, _units: 'metric' | 'imperial'): string {
+  return `${Math.round(kmh)} km/h`
 }
 
 export function detectMarketOrNull(available: ReadonlySet<string>): string | null {

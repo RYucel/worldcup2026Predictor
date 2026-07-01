@@ -2,7 +2,6 @@ import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import type { ReactNode } from 'react'
 import type { Lang, Settings, Theme, TzMode, Units } from '../types'
 import { LANG_LABEL, RTL_LANGS } from '../i18n/strings'
-import { detectCountry } from '../utils/helpers'
 
 const KEY = 'wc2026-settings'
 
@@ -22,7 +21,7 @@ function defaults(): Settings {
     favorites: [],
     theme: 'dark',
     market: legacyMarket,
-    units: detectCountry() === 'US' ? 'imperial' : 'metric',
+    units: 'metric',
   }
 }
 
