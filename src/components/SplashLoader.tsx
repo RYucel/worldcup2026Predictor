@@ -11,7 +11,11 @@ export default function SplashLoader({ isFading }: SplashLoaderProps) {
     <div className={`splash-container${isFading ? ' splash-fade-out' : ''}`}>
       <div className="splash-content">
         <div className="splash-logo-container">
-          <img src="./world_cup_2026_logo.png" alt="2026 World Cup Logo" className="splash-logo" />
+          <img
+            src={`${import.meta.env.BASE_URL}world_cup_2026_logo.png`}
+            alt="2026 World Cup Logo"
+            className="splash-logo"
+          />
           <div className="splash-spinner" />
         </div>
         <h1 className="splash-title">{t('appName')}</h1>
