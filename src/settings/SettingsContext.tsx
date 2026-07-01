@@ -6,47 +6,6 @@ import { detectCountry } from '../utils/helpers'
 
 const KEY = 'wc2026-settings'
 
-const LANG_PREFIX: [string, Lang][] = [
-  ['fr', 'fr'],
-  ['es', 'es'],
-  ['pt-br', 'pt-BR'],
-  ['pt', 'pt'],
-  ['de', 'de'],
-  ['nl', 'nl'],
-  ['cs', 'cs'],
-  ['hr', 'hr'],
-  ['sv', 'sv'],
-  ['nb', 'no'],
-  ['nn', 'no'],
-  ['no', 'no'],
-  ['ar', 'ar'],
-  ['fa', 'fa'],
-  ['tr', 'tr'],
-  ['uz', 'uz'],
-  ['ja', 'ja'],
-  ['ko', 'ko'],
-  ['zh-tw', 'zh-TW'],
-  ['zh-hant', 'zh-TW'],
-  ['zh-hk', 'zh-TW'],
-  ['zh-mo', 'zh-TW'],
-  ['zh', 'zh'],
-  ['it', 'it'],
-  ['id', 'id'],
-  ['ru', 'ru'],
-  ['uk', 'uk'],
-  ['en', 'en'],
-]
-
-function detectLang(): Lang {
-  for (const l of navigator.languages || [navigator.language]) {
-    const low = (l || '').toLowerCase()
-    for (const [prefix, lang] of LANG_PREFIX) {
-      if (low.startsWith(prefix)) return lang
-    }
-  }
-  return 'tr'
-}
-
 function defaults(): Settings {
   let legacyMarket: string | null = null
   try {
