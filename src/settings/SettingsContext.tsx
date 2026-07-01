@@ -56,7 +56,7 @@ function defaults(): Settings {
     legacyMarket = null
   }
   return {
-    lang: detectLang(),
+    lang: 'tr',
     tzMode: 'local',
     // host-country anchor: most matches and the final are on US Eastern time
     fixedTz: 'America/New_York',
