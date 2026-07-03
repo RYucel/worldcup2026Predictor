@@ -55774,11 +55774,19 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "477827",
+     "minute": "59'",
+     "type": 2,
+     "period": 5,
+     "sec": 820
+    }
+   ],
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "49'",
+  "matchTime": "62'",
   "period": 5,
   "final": false,
   "secTried": true
