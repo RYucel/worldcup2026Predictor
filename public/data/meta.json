@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-07-03T01:26:42.005Z",
+ "updatedAt": "2026-07-03T05:22:21.457Z",
  "season": "285023",
  "titleOdds": [
   {
    "c": "ARG",
-   "p": 22.7
+   "p": 22.4
   },
   {
    "c": "ESP",
-   "p": 18.7
+   "p": 19.5
   },
   {
    "c": "FRA",
-   "p": 18.4
+   "p": 18.5
   },
   {
    "c": "ENG",
@@ -20,7 +20,7 @@
   },
   {
    "c": "BRA",
-   "p": 6.9
+   "p": 7.1
   }
  ],
  "counts": {
@@ -32,7 +32,23 @@
   "flags": 179
  },
  "errors": [
-  "geocode New Tecumseth: no usable result — not cached, will retry next run"
+  "geocode New Tecumseth: no usable result — not cached, will retry next run",
+  "weather SoFi Stadium: The operation was aborted.",
+  "weather Mercedes-Benz Stadium: The operation was aborted.",
+  "weather Lumen Field: The operation was aborted.",
+  "weather Estadio Azteca (Estadio Banorte): The operation was aborted.",
+  "weather Estadio BBVA: The operation was aborted.",
+  "weather BMO Field: The operation was aborted.",
+  "weather BC Place: The operation was aborted.",
+  "weather Lincoln Financial Field: The operation was aborted.",
+  "weather Gillette Stadium: The operation was aborted.",
+  "weather NRG Stadium: The operation was aborted.",
+  "weather Estadio Akron: The operation was aborted.",
+  "weather Arrowhead Stadium (GEHA Field): The operation was aborted.",
+  "weather Levi's Stadium: The operation was aborted.",
+  "weather Hard Rock Stadium: The operation was aborted.",
+  "weather AT&T Stadium: The operation was aborted.",
+  "weather MetLife Stadium: The operation was aborted."
  ],
  "sources": [
   "api.fifa.com",
