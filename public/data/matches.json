@@ -6509,7 +6509,11 @@
    "status": "scheduled",
    "time": null,
    "home": null,
-   "away": null,
+   "away": {
+    "code": "EGY",
+    "score": null,
+    "pen": null
+   },
    "phA": "W86",
    "phB": "W88",
    "winner": null,
