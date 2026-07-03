@@ -57827,19 +57827,27 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "359381",
+     "minute": "53'",
+     "type": 2,
+     "period": 5,
+     "sec": 464
+    }
+   ],
    "bookings": [],
    "substitutions": [
     {
-     "off": "485068",
-     "on": "430070",
+     "off": "430070",
+     "on": "485068",
      "minute": "",
      "period": 4
     }
    ]
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "58'",
+  "period": 5,
   "final": false,
   "secTried": true
  },
