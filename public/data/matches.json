@@ -6222,7 +6222,7 @@
    "group": null,
    "date": "2026-07-04T21:00:00Z",
    "venueId": "400248622",
-   "status": "live",
+   "status": "finished",
    "time": "90'",
    "home": {
     "code": "PAR",
@@ -6236,7 +6236,7 @@
    },
    "phA": "W74",
    "phB": "W77",
-   "winner": null,
+   "winner": "FRA",
    "attendance": 68324,
    "officials": [
     {
