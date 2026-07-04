@@ -6072,10 +6072,10 @@
    "date": "2026-07-04T01:30:00Z",
    "venueId": "400254717",
    "status": "live",
-   "time": "12'",
+   "time": "45'+1'",
    "home": {
     "code": "COL",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
