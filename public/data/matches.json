@@ -6808,7 +6808,7 @@
    "date": "2026-07-07T16:00:00Z",
    "venueId": "400098290",
    "status": "finished",
-   "time": "90'",
+   "time": "102'",
    "home": {
     "code": "ARG",
     "score": 3,
@@ -7035,7 +7035,11 @@
    "venueId": "400254717",
    "status": "scheduled",
    "time": null,
-   "home": null,
+   "home": {
+    "code": "ARG",
+    "score": null,
+    "pen": null
+   },
    "away": null,
    "phA": "W95",
    "phB": "W96",
